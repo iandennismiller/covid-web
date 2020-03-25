@@ -1,0 +1,45 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Academic Covid
+description: > # this means to ignore newlines until next variable
+  Networks of Covid-19 Research and Researchers
+license: "cc 2020"
+
+# Links
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://iandennismiller.github.io/covid" # the base hostname & protocol for your site
+permalink: none
+
+# include/exclude files
+include: ["_pages", "_root", "_js"]
+exclude: ["Readme.md", "Todo.md", "Makefile", "vendor", "Gemfile", "Gemfile.lock"]
+
+# Build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+gems:
+  - jekyll-sitemap
+
+# Email
+# email: iandennismiller@gmail.com
+
+# Twitter
+# twitter_username: 
+
+# GitHub
+# github_username:  iandennismiller
+
+# Google Analytics
+# google_analytics_id: 
+
+# Disqus comments
+# disqus: 
