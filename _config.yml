@@ -46,14 +46,19 @@ twitter_username: iandennismiller
 # disqus: 
 
 page_gen:
-  - data: 'bibliography'
+  - index_files: false
+    data: 'authors'
+    template: 'gen-author'
+    name: 'slug'
+    dir: 'authors'
+  - index_files: false
+    data: 'articles'
     template: 'bib-article'
     name: 'ID'
     dir: 'articles'
-    index_files: false
-  - data: 'bibliography'
+  - index_files: false
+    data: 'articles'
     template: 'bib-article-bibtex'
     name: 'ID'
     dir: 'bib'
     extension: 'bib'
-    index_files: false

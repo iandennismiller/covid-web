@@ -1,17 +1,18 @@
 ---
 layout:     default
 title:      Authors
-permalink:  /authors/
+permalink:  /authors/index.html
+menu:       main
 image:      /media/thumb-big.jpg
-excerpt:    The Academic Covid
+excerpt:    CoVIndex Authors
 ---
 
 <div class="home">
 
     <ul>
-        {% for person in site.data.people %}
+        {% for author in site.data.authors %}
           <li>
-              {{ person.name }}
+              <a href="{{ author.slug }}.html">{{ author.fullname }}</a>
           </li>
         {% endfor %}
     </ul>

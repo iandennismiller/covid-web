@@ -14,8 +14,7 @@ serve:
 	bundle exec jekyll serve
 
 publish: clean build
-	-rm -rf docs
-	cp -r _site docs
+	rsync -avD _site/ docs/
 
 artwork:
 	_bin/artwork.sh
