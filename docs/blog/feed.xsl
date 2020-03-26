@@ -8,27 +8,27 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Networks of Covid-19 Research and Researchers
+  <meta name="description" content="CoVIndex: Coronavirus Research and Researchers
 " />
   <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@iandennismiller" />
 <meta name="twitter:title" content="" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:image" content="http://localhost:4000" />
+<meta name="twitter:image" content="http://covindex.com" />
 
-  <meta property="og:site_name" content="Academic Covid"/>
+  <meta property="og:site_name" content="CoVIndex"/>
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="Academic Covid"/>
+<meta property="og:title" content="CoVIndex"/>
 <meta property="og:description" content=""/>
-<meta property="og:url" content="http://localhost:4000/blog/feed.xsl"/>
-<meta property="og:image" content="http://localhost:4000"/>
+<meta property="og:url" content="http://covindex.com/blog/feed.xsl"/>
+<meta property="og:image" content="http://covindex.com"/>
 
 
   <link rel="sitemap" href="/sitemap.xml" />
-  <link rel="canonical" href="http://localhost:4000/blog/feed.xsl" />
-  <link rel="alternate" type="application/rss+xml" title="Academic Covid" href="http://localhost:4000/blog/feed.xml" />
+  <link rel="canonical" href="http://covindex.com/blog/feed.xsl" />
+  <link rel="alternate" type="application/rss+xml" title="CoVIndex" href="http://covindex.com/blog/feed.xml" />
 
-  <title>Academic Covid measures open source influence </title>
+  <title>CoVIndex measures open source influence </title>
 
   
   <style>
@@ -37,7 +37,7 @@
   </style>
 
   
-    <script src="/js/main.js"></script>
+    <script src="/js/main.min.js"></script>
   
 
 </head>
@@ -55,7 +55,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/"><img width="24" height="24" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGuSURBVHic7d1BalVBFEXRUt4AxPnPSiUgBgRDQESjIMaPDZ3EachmrQGczub2CurFOefv2fo83ns/3ruN9z6O994tx14ux/j/CBwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncNx1zrkfbz6M957Ge2/He+s3aI/LMRccJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHHXOefPePN5vPdtvPdqvLd+Mzbdc8FxAscJHCdwnMBxAscJHCdwnMBxAscJHCdwnMBxAscJHCdwnMBxAscJHHedc76PN3+M976M996M99ZvsqZ/NbrgOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI67zv4vv9/jva/jvQ/jvfWbttfLMRccJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHHXOec23rwb7/0c763/Vvw03vu1HHPBcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRz3D7O8IB766ZH3AAAAAElFTkSuQmCC" /> Academic Covid</a>
+    <a class="site-title" href="/"><img width="24" height="24" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGuSURBVHic7d1BalVBFEXRUt4AxPnPSiUgBgRDQESjIMaPDZ3EachmrQGczub2CurFOefv2fo83ns/3ruN9z6O994tx14ux/j/CBwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncNx1zrkfbz6M957Ge2/He+s3aI/LMRccJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHHXOefPePN5vPdtvPdqvLd+Mzbdc8FxAscJHCdwnMBxAscJHCdwnMBxAscJHCdwnMBxAscJHCdwnMBxAscJHHedc76PN3+M976M996M99ZvsqZ/NbrgOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI67zv4vv9/jva/jvQ/jvfWbttfLMRccJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHHXOec23rwb7/0c763/Vvw03vu1HHPBcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRz3D7O8IB766ZH3AAAAAElFTkSuQmCC" /> CoVIndex</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -80,15 +80,15 @@
         
           
             
-          
-        
-          
+              <a class="page-link" href="/articles/index.html">Articles</a>
             
           
         
           
             
-              <a class="page-link" href="/blog/">Blog</a>
+          
+        
+          
             
           
         
@@ -34393,14 +34393,14 @@
 
   <div class="wrapper">
 
-    <!-- <h2 class="footer-heading">Academic Covid</h2> -->
+    <!-- <h2 class="footer-heading">CoVIndex</h2> -->
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <!-- <li>Academic Covid</li> -->
+          <!-- <li>CoVIndex</li> -->
           <li>
-            <a class="outbound" href="http://localhost:4000"><span class="icon icon--www"><svg
+            <a class="outbound" href="http://covindex.com"><span class="icon icon--www"><svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -34451,7 +34451,7 @@
            id="g4274"><path
              id="path4276"
              style="fill:none;stroke:#58928a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="M 0,0 10.214,0" /></g></g></g></g></svg></span> <span class="username">http://localhost:4000</span></a>
+             d="M 0,0 10.214,0" /></g></g></g></g></svg></span> <span class="username">http://covindex.com</span></a>
 
           </li>
           
@@ -34470,26 +34470,20 @@
 
         <ul class="social-media-list">
           
-          <li>
-            <a class="outbound" href="https://github.com/iandennismiller"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
-</span><span class="username">iandennismiller</span></a>
-
-          </li>
-          
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
-        <div>Networks of Covid-19 Research and Researchers
+        <div>CoVIndex: Coronavirus Research and Researchers
 </div>
 
-        <div id="blogpost">
+        <!-- <div id="blogpost">
           Latest article: 
           
               <a href="/blog/the-first-blog-post.html">The first blog post</a>
               <span class="post-meta">Jul 29, 2016</span>
           
-        </div>
+        </div> -->
 
       </div>
     </div>

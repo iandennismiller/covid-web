@@ -13,7 +13,7 @@ new:
 serve:
 	bundle exec jekyll serve
 
-publish:
+publish: clean build
 	-rm -rf docs
 	cp -r _site docs
 
@@ -23,8 +23,10 @@ artwork:
 install:
 	rsync -acv --delete _site/ ~/www/
 
-incremental:
+clean:
 	bundle exec jekyll clean
+
+incremental: clean
 	bundle exec jekyll serve --incremental
 
 build:

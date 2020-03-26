@@ -2,8 +2,9 @@
 layout:     default
 title:      Articles
 permalink:  /articles/index.html
+menu:       main
 image:      /media/thumb-big.jpg
-excerpt:    The Academic Covid
+excerpt:    Coronavirus Articles
 ---
 
 <div class="home">
@@ -11,7 +12,8 @@ excerpt:    The Academic Covid
     <ul>
         {% for article in site.data.bibliography %}
           <li>
-              <a href="{{ article.ID|downcase }}.html">{{ article.doi }}</a>
+            <a role="button" class="btn btn-primary" href="{{ article.ID|downcase }}.html">[View]</a>
+            {{ article.author }}. ({{ article.year }}). {{ article.title }}.
           </li>
         {% endfor %}
     </ul>

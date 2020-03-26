@@ -3,21 +3,33 @@ layout:     page-nosocial-rendered
 image:      /media/thumb-big.jpg
 ---
 
+<style>
+    .var {
+        display: inline-block;
+        width: 7em;
+        font-weight: bold;
+    }
+
+    .value {
+        display: inline-block;
+    }
+</style>
+
 <div class="home">
 
-    <div>
-        <a href="../bib/{{ page.ID|downcase }}.bib">BibTeX</a>
+    <div style="margin-bottom: 1em;">
+        {{ page.abstract }}
     </div>
 
-    <div>
+    <div style="margin-bottom: 1em;">
+        <span class="var">keywords</span>
+        <span class="value">{{ page.keywords }}</span>
+    </div>
+
+    <div style="margin-bottom: 1em;">
         <div>
             <span class="var">author</span>
             <span class="value">{{ page.author }}</span>
-        </div>
-
-        <div>
-            <span class="var">title</span>
-            <span class="value">{{ page.title }}</span>
         </div>
 
         <div>
@@ -60,16 +72,11 @@ image:      /media/thumb-big.jpg
             <span class="value">{{ page.citedbycount }}</span>
         </div>
 
-        <div>
-            <span class="var">abstract</span>
-            <span class="value">{{ page.abstract }}</span>
-        </div>
-
-        <div>
-            <span class="var">keywords</span>
-            <span class="value">{{ page.keywords }}</span>
-        </div>
-
     </div>
-    
+
+    <div>
+        <span class="var">download</span>
+        <span class="value"><a href="../bib/{{ page.ID|downcase }}.bib">[BibTeX]</a></span>
+    </div>
+
 </div>
