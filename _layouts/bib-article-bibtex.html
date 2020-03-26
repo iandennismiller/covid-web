@@ -1,0 +1,18 @@
+---
+layout:     none
+---
+
+@article{{ page.ID|prepend:'{' }},
+    author = {{ page.author|prepend:'{' }}},
+    title = {{ page.title|prepend:'{' }}},
+    journal = {{ page.journal|prepend:'{' }}},
+    issn = {{ page.issn|prepend:'{' }}},
+    year = {{ page.year|prepend:'{' }}},
+    volume = {{ page.volume|prepend:'{' }}},
+    number = {{ page.number|prepend:'{' }}},
+    pages = {{ page.pages|prepend:'{' }}},
+    doi = {{ page.doi|prepend:'{' }}}
+    citedbycount = {{ page.citedbycount|prepend:'{' }}},
+    abstract = {{ page.abstract|prepend:'{' }}},
+    keywords = {{ page.keywords|prepend:'{' }}}
+}

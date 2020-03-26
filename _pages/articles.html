@@ -1,0 +1,19 @@
+---
+layout:     default
+title:      Articles
+permalink:  /articles/index.html
+image:      /media/thumb-big.jpg
+excerpt:    The Academic Covid
+---
+
+<div class="home">
+
+    <ul>
+        {% for article in site.data.bibliography %}
+          <li>
+              <a href="{{ article.ID|downcase }}.html">{{ article.doi }}</a>
+          </li>
+        {% endfor %}
+    </ul>
+    
+</div>

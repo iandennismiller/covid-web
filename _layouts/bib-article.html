@@ -1,0 +1,77 @@
+---
+layout:     default
+title:      Articles
+image:      /media/thumb-big.jpg
+excerpt:    The Academic Covid
+---
+
+<div class="home">
+
+    <div>
+        <a href="/bib/{{ page.ID|downcase }}.bib">BibTeX</a>
+    </div>
+
+    <div>
+        <div>
+            <span class="var">author</span>
+            <span class="value">{{ page.author }}</span>
+        </div>
+
+        <div>
+            <span class="var">title</span>
+            <span class="value">{{ page.title }}</span>
+        </div>
+
+        <div>
+            <span class="var">journal</span>
+            <span class="value">{{ page.journal }}</span>
+        </div>
+
+        <div>
+            <span class="var">issn</span>
+            <span class="value">{{ page.issn }}</span>
+        </div>
+
+        <div>
+            <span class="var">year</span>
+            <span class="value">{{ page.year }}</span>
+        </div>
+
+        <div>
+            <span class="var">volume</span>
+            <span class="value">{{ page.volume }}</span>
+        </div>
+
+        <div>
+            <span class="var">number</span>
+            <span class="value">{{ page.number }}</span>
+        </div>
+
+        <div>
+            <span class="var">page</span>
+            <span class="value">{{ page.pages }}</span>
+        </div>
+
+        <div>
+            <span class="var">doi</span>
+            <span class="value"><a href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a></span>
+        </div>
+
+        <div>
+            <span class="var">citedbycount</span>
+            <span class="value">{{ page.citedbycount }}</span>
+        </div>
+
+        <div>
+            <span class="var">abstract</span>
+            <span class="value">{{ page.abstract }}</span>
+        </div>
+
+        <div>
+            <span class="var">keywords</span>
+            <span class="value">{{ page.keywords }}</span>
+        </div>
+
+    </div>
+    
+</div>

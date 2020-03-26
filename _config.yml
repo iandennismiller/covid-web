@@ -13,7 +13,7 @@ license: "cc 2020"
 
 # Links
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://iandennismiller.github.io/covid" # the base hostname & protocol for your site
+url: "https://iandennismiller.github.io/covid-web" # the base hostname & protocol for your site
 permalink: none
 
 # include/exclude files
@@ -26,20 +26,32 @@ markdown: kramdown
 sass:
   style: compressed
 
-gems:
+plugins:
   - jekyll-sitemap
+  - data_page_generator
 
 # Email
 # email: iandennismiller@gmail.com
 
 # Twitter
-# twitter_username: 
+twitter_username: iandennismiller
 
 # GitHub
-# github_username:  iandennismiller
+github_username: iandennismiller
 
 # Google Analytics
 # google_analytics_id: 
 
 # Disqus comments
 # disqus: 
+
+page_gen:
+  - data: 'bibliography'
+    template: 'bib-article'
+    name: 'ID'
+    dir: 'articles'
+  - data: 'bibliography'
+    template: 'bib-article-bibtex'
+    name: 'ID'
+    dir: 'bib'
+    extension: 'bib'
