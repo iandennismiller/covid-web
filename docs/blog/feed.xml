@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/blog/feed.xsl" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academic Covid Blog</title>
+    <description>Networks of Covid-19 Research and Researchers
+</description>
+    <link>https://iandennismiller.github.io/covid-web/</link>
+    <atom:link href="https://iandennismiller.github.io/covid-web/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 26 Mar 2020 09:54:17 -0400</pubDate>
+    <lastBuildDate>Thu, 26 Mar 2020 09:54:17 -0400</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+    
+      <item>
+        <title>The first blog post</title>
+        <description>&lt;p&gt;This is a blog post!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 Jul 2016 00:00:00 -0400</pubDate>
+        <link>https://iandennismiller.github.io/covid-web/blog/the-first-blog-post.html</link>
+        <guid isPermaLink="true">https://iandennismiller.github.io/covid-web/blog/the-first-blog-post.html</guid>
+        
+        <category>default</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+    
+  </channel>
+</rss>

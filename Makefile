@@ -14,7 +14,8 @@ serve:
 	bundle exec jekyll serve
 
 publish:
-	_bin/publish.sh
+	-rm -rf docs
+	cp -r _site docs
 
 artwork:
 	_bin/artwork.sh
