@@ -14,19 +14,19 @@
 <meta name="twitter:site" content="@iandennismiller" />
 <meta name="twitter:title" content="" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:image" content="https://iandennismiller.github.io/covid-web" />
+<meta name="twitter:image" content="http://localhost:4000" />
 
   <meta property="og:site_name" content="Academic Covid"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="Academic Covid"/>
 <meta property="og:description" content=""/>
-<meta property="og:url" content="https://iandennismiller.github.io/covid-web/blog/feed.xsl"/>
-<meta property="og:image" content="https://iandennismiller.github.io/covid-web"/>
+<meta property="og:url" content="http://localhost:4000/blog/feed.xsl"/>
+<meta property="og:image" content="http://localhost:4000"/>
 
 
   <link rel="sitemap" href="/sitemap.xml" />
-  <link rel="canonical" href="https://iandennismiller.github.io/covid-web/blog/feed.xsl" />
-  <link rel="alternate" type="application/rss+xml" title="Academic Covid" href="https://iandennismiller.github.io/covid-web/blog/feed.xml" />
+  <link rel="canonical" href="http://localhost:4000/blog/feed.xsl" />
+  <link rel="alternate" type="application/rss+xml" title="Academic Covid" href="http://localhost:4000/blog/feed.xml" />
 
   <title>Academic Covid measures open source influence </title>
 
@@ -37,7 +37,7 @@
   </style>
 
   
-    <script src="/js/main.min.js"></script>
+    <script src="/js/main.js"></script>
   
 
 </head>
@@ -34400,7 +34400,7 @@
         <ul class="contact-list">
           <!-- <li>Academic Covid</li> -->
           <li>
-            <a class="outbound" href="https://iandennismiller.github.io/covid-web"><span class="icon icon--www"><svg
+            <a class="outbound" href="http://localhost:4000"><span class="icon icon--www"><svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -34451,7 +34451,7 @@
            id="g4274"><path
              id="path4276"
              style="fill:none;stroke:#58928a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="M 0,0 10.214,0" /></g></g></g></g></svg></span> <span class="username">https://iandennismiller.github.io/covid-web</span></a>
+             d="M 0,0 10.214,0" /></g></g></g></g></svg></span> <span class="username">http://localhost:4000</span></a>
 
           </li>
           

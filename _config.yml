@@ -18,7 +18,7 @@ permalink: none
 
 # include/exclude files
 include: ["_pages", "_root", "_js"]
-exclude: ["Readme.md", "Todo.md", "Makefile", "vendor", "Gemfile", "Gemfile.lock"]
+exclude: ["docs", "Readme.md", "Todo.md", "Makefile", "vendor", "Gemfile", "Gemfile.lock"]
 
 # Build settings
 markdown: kramdown
