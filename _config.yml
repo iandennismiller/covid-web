@@ -47,7 +47,7 @@ github_username: iandennismiller
 
 page_gen:
   - data: 'bibliography'
-    template: 'bib-article-short'
+    template: 'bib-article'
     name: 'ID'
     dir: 'articles'
     index_files: false
