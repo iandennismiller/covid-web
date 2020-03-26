@@ -15,6 +15,8 @@ serve:
 
 publish: clean build
 	rsync -avD _site/ docs/
+	git add -A
+	git commit -am "automatic publish"
 
 artwork:
 	_bin/artwork.sh

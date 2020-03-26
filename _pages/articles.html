@@ -10,7 +10,7 @@ excerpt:    CoVIndex Articles
 <div class="home">
 
     <ul>
-        {% for article in site.data.bibliography %}
+        {% for article in site.data.articles %}
           <li>
             <a role="button" class="btn btn-primary" href="{{ article.ID|downcase }}.html">[View]</a>
             {{ article.author }}. ({{ article.year }}). {{ article.title }}.
