@@ -13,17 +13,16 @@ image:      /media/thumb-big.jpg
 
     <ul>
     {% for article_key in page.article_list %}
-        <li><a href="/articles/{{ article_key|downcase }}.html">[view]</a> {{ page.articles[article_key].author }}. ({{ page.articles[article_key].year }}). {{ page.articles[article_key].title }}</li>
+        <li>
+            <a href="/articles/{{ article_key|downcase }}.html">[view]</a>
+            {% for author in page.articles[article_key].author_list %}
+                <a href="/authors/{{ author[1] }}.html">{{ author[0] }}</a>
+            {% endfor %}
+            .
+            ({{ page.articles[article_key].year }}).
+            {{ page.articles[article_key].title }}
+        </li>
     {% endfor %}
     </ul>
-
-    <h2>Coauthors</h2>
-
-    <ul>
-        {% for article_key in page.article_list %}
-            <li><a href="/articles/{{ article_key|downcase }}.html">[view]</a> {{ page.articles[article_key].author }}. ({{ page.articles[article_key].year }}). {{ page.articles[article_key].title }}</li>
-        {% endfor %}
-    </ul>
-   
 
 </div>
