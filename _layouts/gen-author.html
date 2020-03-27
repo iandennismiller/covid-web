@@ -17,4 +17,13 @@ image:      /media/thumb-big.jpg
     {% endfor %}
     </ul>
 
+    <h2>Coauthors</h2>
+
+    <ul>
+        {% for article_key in page.article_list %}
+            <li><a href="/articles/{{ article_key|downcase }}.html">[view]</a> {{ page.articles[article_key].author }}. ({{ page.articles[article_key].year }}). {{ page.articles[article_key].title }}</li>
+        {% endfor %}
+    </ul>
+   
+
 </div>

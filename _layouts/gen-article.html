@@ -29,7 +29,11 @@ image:      /media/thumb-big.jpg
     <div style="margin-bottom: 1em;">
         <div>
             <span class="var">author</span>
-            <span class="value">{{ page.author }}</span>
+            <span class="value">
+                {% for author in page.author_list %}
+                    <a href="/authors/{{ author[1] }}.html">{{ author[0] }}</a>
+                {% endfor %}
+            </span>
         </div>
 
         <div>

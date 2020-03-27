@@ -53,12 +53,12 @@ page_gen:
     dir: 'authors'
   - index_files: false
     data: 'articles'
-    template: 'bib-article'
+    template: 'gen-article'
     name: 'ID'
     dir: 'articles'
   - index_files: false
     data: 'articles'
-    template: 'bib-article-bibtex'
+    template: 'gen-bibtex'
     name: 'ID'
     dir: 'bib'
     extension: 'bib'
