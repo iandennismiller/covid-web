@@ -8,7 +8,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="CoVIndex: Coronavirus Research and Researchers
+  <meta name="description" content="CoV Index: Coronavirus Index of Research and Researchers
 " />
   <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@iandennismiller" />
@@ -16,9 +16,9 @@
 <meta name="twitter:description" content="" />
 <meta name="twitter:image" content="http://covindex.com" />
 
-  <meta property="og:site_name" content="CoVIndex"/>
+  <meta property="og:site_name" content="CoV Index"/>
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="CoVIndex"/>
+<meta property="og:title" content="CoV Index"/>
 <meta property="og:description" content=""/>
 <meta property="og:url" content="http://covindex.com/blog/feed.xsl"/>
 <meta property="og:image" content="http://covindex.com"/>
@@ -26,9 +26,9 @@
 
   <link rel="sitemap" href="/sitemap.xml" />
   <link rel="canonical" href="http://covindex.com/blog/feed.xsl" />
-  <link rel="alternate" type="application/rss+xml" title="CoVIndex" href="http://covindex.com/blog/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="CoV Index" href="http://covindex.com/blog/feed.xml" />
 
-  <title>CoVIndex measures open source influence </title>
+  <title>CoV Index measures open source influence </title>
 
   
   <style>
@@ -55,7 +55,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/"><img width="24" height="24" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGuSURBVHic7d1BalVBFEXRUt4AxPnPSiUgBgRDQESjIMaPDZ3EachmrQGczub2CurFOefv2fo83ns/3ruN9z6O994tx14ux/j/CBwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncNx1zrkfbz6M957Ge2/He+s3aI/LMRccJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHHXOefPePN5vPdtvPdqvLd+Mzbdc8FxAscJHCdwnMBxAscJHCdwnMBxAscJHCdwnMBxAscJHCdwnMBxAscJHHedc76PN3+M976M996M99ZvsqZ/NbrgOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI67zv4vv9/jva/jvQ/jvfWbttfLMRccJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHHXOec23rwb7/0c763/Vvw03vu1HHPBcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRz3D7O8IB766ZH3AAAAAElFTkSuQmCC" /> CoVIndex</a>
+    <a class="site-title" href="/"><img width="24" height="24" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGuSURBVHic7d1BalVBFEXRUt4AxPnPSiUgBgRDQESjIMaPDZ3EachmrQGczub2CurFOefv2fo83ns/3ruN9z6O994tx14ux/j/CBwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncNx1zrkfbz6M957Ge2/He+s3aI/LMRccJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHHXOefPePN5vPdtvPdqvLd+Mzbdc8FxAscJHCdwnMBxAscJHCdwnMBxAscJHCdwnMBxAscJHCdwnMBxAscJHHedc76PN3+M976M996M99ZvsqZ/NbrgOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI67zv4vv9/jva/jvQ/jvfWbttfLMRccJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHHXOec23rwb7/0c763/Vvw03vu1HHPBcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRz3D7O8IB766ZH3AAAAAElFTkSuQmCC" /> CoV Index</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -97895,12 +97895,12 @@
 
   <div class="wrapper">
 
-    <!-- <h2 class="footer-heading">CoVIndex</h2> -->
+    <!-- <h2 class="footer-heading">CoV Index</h2> -->
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <!-- <li>CoVIndex</li> -->
+          <!-- <li>CoV Index</li> -->
           <li>
             <a class="outbound" href="http://covindex.com"><span class="icon icon--www"><svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -97976,7 +97976,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <div>CoVIndex: Coronavirus Research and Researchers
+        <div>CoV Index: Coronavirus Index of Research and Researchers
 </div>
 
         <!-- <div id="blogpost">
