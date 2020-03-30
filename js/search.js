@@ -7,6 +7,7 @@ var indexLoaded = function (e) {
     document.getElementById("search").placeholder = "ready to search";
     document.getElementById("search").disabled = false;
     document.getElementById("search").focus();
+    document.getElementById("wait").remove();
 }
 
 var search = function(query) {
@@ -31,7 +32,7 @@ var search = function(query) {
 }
 
 var search_from_field = function() {
-    var query = document.getElementById("results").textContent;
+    var query = document.getElementById("search").value;
     search(query);
 }
 
