@@ -2,7 +2,8 @@ var searchIndex;
 var results_node = document.getElementById("results");
 
 var indexLoaded = function (e) {
-    var data = JSON.parse(e.target.response);
+    var resp = pako.inflate(e.target.response, { to: 'string' });
+    var data = JSON.parse(resp);
     searchIndex = lunr.Index.load(data);
     document.getElementById("search").placeholder = "ready to search";
     document.getElementById("search").disabled = false;
@@ -37,7 +38,8 @@ var search_from_field = function() {
 }
 
 var xhr = new XMLHttpRequest;
-xhr.open('get', '/data/index.json');
+xhr.responseType = "arraybuffer";
+xhr.open('get', '/data/index.json.Z');
 xhr.addEventListener('load', indexLoaded);
 xhr.send();
 
