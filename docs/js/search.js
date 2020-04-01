@@ -39,7 +39,7 @@ var search_from_field = function() {
 
 var xhr = new XMLHttpRequest;
 xhr.responseType = "arraybuffer";
-xhr.open('get', '/data/index.json.Z');
+xhr.open('get', '/data/index.json.gz');
 xhr.addEventListener('load', indexLoaded);
 xhr.send();
 
