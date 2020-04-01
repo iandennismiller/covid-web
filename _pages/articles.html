@@ -2,12 +2,14 @@
 layout:     default
 title:      Articles
 permalink:  /articles/index.html
-menu:       main
+menu:       none
 image:      /media/thumb-big.jpg
 excerpt:    CoV Index Articles
 ---
 
 <div class="home">
+
+{% comment %}
 
     <ul>
         {% for article in site.data.articles %}
@@ -17,5 +19,7 @@ excerpt:    CoV Index Articles
           </li>
         {% endfor %}
     </ul>
-    
+
+{% endcomment %}
+
 </div>

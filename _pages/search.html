@@ -7,16 +7,69 @@ image:      /media/thumb-big.jpg
 excerpt:    CoV Index Search
 ---
 
+<style type="text/css">
+    .search-result {
+        color: darkslategray;
+        font-size: 1.3em;
+    }
+
+    .search-result:visited {
+        color: gray;
+    }
+
+    #results {
+        list-style: none;
+        margin-left: 0;
+    }
+
+    #search, #search_button {
+        font-size: 2em;
+    }
+
+.lds-circle {
+  display: block;
+  transform: translateZ(1px);
+  margin: 0 auto;
+}
+
+.lds-circle > div {
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  background: lightgray;
+  animation: lds-circle 4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+@keyframes lds-circle {
+  0%, 100% {
+    animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+  }
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(1800deg);
+    animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+  }
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
+</style>
+
 <div class="home">
 
     <p align="center">
-        <input id="search" type="text" placeholder="loading..." disabled=true style="font-size: 2em;">
+        <input id="search" type="text" placeholder="loading..." disabled=true>
         <input id="search_button" type="button" value="Search">
     </p>
 
-    <p id="wait" align="center">
-        Please wait a moment while the search index loads...
-    </p>
+    <div class="lds-circle" id="wait" align="center">
+        <div></div>
+    </div>
 
     <ul id="results"></ul>
 

@@ -2,12 +2,14 @@
 layout:     default
 title:      Authors
 permalink:  /authors/index.html
-menu:       main
+menu:       none
 image:      /media/thumb-big.jpg
 excerpt:    CoV Index Authors
 ---
 
 <div class="home">
+
+    {% comment %}
 
     <ul>
         {% for author in site.data.authors %}
@@ -16,5 +18,7 @@ excerpt:    CoV Index Authors
           </li>
         {% endfor %}
     </ul>
-    
+
+    {% endcomment %}
+
 </div>

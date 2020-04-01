@@ -45,7 +45,7 @@ twitter_username: iandennismiller
 # Disqus comments
 # disqus: 
 
-page_gen2:
+page_gen:
   - index_files: false
     data: 'authors'
     template: 'gen-author'
