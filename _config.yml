@@ -34,7 +34,7 @@ plugins:
 # email: iandennismiller@gmail.com
 
 # Twitter
-twitter_username: iandennismiller
+# twitter_username: iandennismiller
 
 # GitHub
 # github_username: iandennismiller
@@ -46,19 +46,24 @@ twitter_username: iandennismiller
 # disqus: 
 
 page_gen:
+  # - index_files: false
+  #   data: 'authors'
+  #   template: 'gen-author'
+  #   name: 'slug'
+  #   dir: 'authors'
+  # - index_files: false
+  #   data: 'articles'
+  #   template: 'gen-article'
+  #   name: 'ID'
+  #   dir: 'articles'
+  # - index_files: false
+  #   data: 'articles'
+  #   template: 'gen-bibtex'
+  #   name: 'ID'
+  #   dir: 'bib'
+  #   extension: 'bib'
   - index_files: false
-    data: 'authors'
-    template: 'gen-author'
+    data: 'keywords'
+    template: 'gen-topic'
     name: 'slug'
-    dir: 'authors'
-  - index_files: false
-    data: 'articles'
-    template: 'gen-article'
-    name: 'ID'
-    dir: 'articles'
-  - index_files: false
-    data: 'articles'
-    template: 'gen-bibtex'
-    name: 'ID'
-    dir: 'bib'
-    extension: 'bib'
+    dir: 'topics'

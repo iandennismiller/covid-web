@@ -1,0 +1,30 @@
+---
+layout:     page-nosocial-rendered
+image:      /media/thumb-big.jpg
+---
+
+<div class="home">
+
+    <div style="margin-bottom: 1em;">
+        {{ page.fullname }}
+    </div>
+
+    <h2>Articles</h2>
+
+    <ul>
+    {% for article_key in page.articles %}
+        <li>
+            <p>
+                <a href="/articles/{{ article_key|downcase }}.html">{{ site.data.citations[article_key].t }}</a>
+            </p>
+            <p>
+                {% for author in site.data.citations[article_key].a %}
+                    {{ author }}
+                {% endfor %}.
+            </p>
+            
+        </li>
+    {% endfor %}
+    </ul>
+
+</div>

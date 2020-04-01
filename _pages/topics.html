@@ -1,0 +1,20 @@
+---
+layout:     default
+title:      Topics
+permalink:  /topics/index.html
+menu:       main
+image:      /media/thumb-big.jpg
+excerpt:    CoV Index Topics
+---
+
+<div class="home">
+
+    <ul>
+        {% for topic in site.data.keywords %}
+          <li>
+              <a href="{{ topic.slug }}.html">{{ topic.term }}</a>
+          </li>
+        {% endfor %}
+    </ul>
+
+</div>
