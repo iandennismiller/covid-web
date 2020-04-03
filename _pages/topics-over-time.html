@@ -1,0 +1,42 @@
+---
+layout:     default
+title:      Topics Over Time
+permalink:  /topics/over-time.html
+menu:       main
+image:      /media/thumb-big.jpg
+excerpt:    CoV Index Topics Over Time
+---
+
+<style>
+    .keyword {
+        display: inline-block;
+        margin: 0.25em;
+        padding: 0.25em;
+        border: 1px dotted gray;
+    }
+
+    .keyword:hover {
+        background: lightgray;
+    }
+
+</style>
+
+<div class="home">
+
+    {% assign decades = "1980s, 1990s, early 2000s, late 2000s, early 2010s, late 2010s" | split: ", " %}
+
+    {% for decade_str in decades %}
+
+    {% assign decade_terms = site.data.keywords_time[decade_str] %}
+
+    <h2>{{ decade_str }}</h2>
+
+    <div>
+        {% for keyword in decade_terms %}
+        <a href="/topics/{{keyword|slugify}}.html"><span class="keyword">{{ keyword }}</span></a>
+        {% endfor %}
+    </div>
+
+    {% endfor %}
+
+</div>
