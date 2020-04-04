@@ -11,15 +11,14 @@ excerpt:    CoV Index is a research project lead by Ian Dennis Miller at the Uni
 
 **CoV Index** applies network analysis, bibliometrics, computer-human interaction, and computational linguistics methods to identify communities of Coronavirus research.
 
-The primary goal of **CoV Index** is to organize Coronavirus Science so experts from any discipline can engage with Coronavirus Science.
+The primary goal of **CoV Index** is to support the comprehension of the massive - and growing - scientific archive of Coronavirus research.
+**CoV Index** seeks to organize Coronavirus Science so experts from any discipline can engage with Coronavirus Science.
 
 ## Interdisciplinary Coronavirus Research
 
-Historically, Coronavirus research has primarily occurred in the biological sciences and, to some extent, public health/epidemiology - but now researchers from other fields are paying attention.
-With the outbreak of COVID-19, Coronavirus research is likely to encompass many new disciplines due to the impact Coronavirae have upon society, economy, politics, and more.
-
+With the outbreak of COVID-19, Coronavirus research is gaining relevance to many scientific disciplines due to the impact Coronaviruses have upon society, economy, politics, psychology, and beyond.
 **CoV Index** bridges the gaps between academic disciplines.
-In this project, we analyze networks of articles and researchers to build an index of interconnected Coronavirus resources.
+In this project, we analyze networks of scientific articles and researchers to build an index of interconnected Coronavirus resources.
 
 ## Collaboration Network
 
@@ -33,4 +32,5 @@ The preliminary results are visualized below.
 
 ## Contact
 
-[CoV Index](http://covindex.com) is lead by <a href="http://imiller.utsc.utoronto.ca">Ian Dennis Miller</a>.
+The [CoV Index](http://covindex.com) project is directed by <a href="http://imiller.utsc.utoronto.ca">Dr. Ian Dennis Miller</a>, a postdoctoral fellow at the University of Toronto.
+Dr. Miller's previous research has investigated scientific progress as a memetic, network process; other work has applied computational linguistic methods to identify memes within a corpus of political speech.
