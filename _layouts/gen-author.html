@@ -24,7 +24,7 @@ image:      /media/thumb-big.jpg
 
                 {% for keyword_key in this.keywords %}
                 <a href="/topics/{{ keyword_key|downcase }}.html">
-                    <span class="keyword">{{ site.data.keywords[keyword_key].term }}</span>
+                    <span class="keyword">🔍 {{ site.data.keywords[keyword_key].term }}</span>
                 </a>
                 {% endfor %}
 
