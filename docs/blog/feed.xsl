@@ -89,6 +89,12 @@
         
           
             
+              <a class="page-link" href="/bibtex/">BibTeX</a>
+            
+          
+        
+          
+            
           
         
           
@@ -111,13 +117,13 @@
         
           
             
-              <a class="page-link" href="/search/index.html">Search</a>
+              <a class="page-link" href="/search/">Search</a>
             
           
         
           
             
-              <a class="page-link" href="/topics/over-time.html">Topics</a>
+              <a class="page-link" href="/topics/">Topics</a>
             
           
         
