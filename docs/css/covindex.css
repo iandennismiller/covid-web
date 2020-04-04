@@ -60,3 +60,14 @@
         transform: rotateY(3600deg);
     }
 }
+
+.keyword {
+    display: inline-block;
+    margin: 0.25em;
+    padding: 0.25em 0.5em 0.25em 0;
+    border: 1px dotted gray;
+}
+
+.keyword:hover {
+    background: lightgray;
+}
