@@ -6,40 +6,38 @@ image:      /media/thumb-big.jpg
 excerpt:    CoV Index - Coronavirus Index
 ---
 
+<style type="text/css">
+    .search-result {
+        color: darkslategray;
+        font-size: 1.3em;
+    }
+
+    .search-result:visited {
+        color: gray;
+    }
+
+    #results {
+        list-style: none;
+        margin-left: 0;
+    }
+
+    #search_field, #search_button {
+        font-size: 2em;
+    }
+</style>
+
 <div class="home">
 
-    <h2>Welcome</h2>
-
-    <p>
-        Coronavirus Index (<a href="http://covindex.com">CoV Index</a>) is a map of coronavirus research and researchers.
-        <b>CoV Index</b> work uses network analysis, bibliometrics, and computational linguistics to identify communities of Coronavirus research.
-        The primary goal of <b>CoV Index</b> is to organize Coronavirus research so scientists from other disciplines can engage with the Coronavirus research community.
-    </p>
-
-    <h2>Search</h2>
-    <p align="center">
+    <div align="center">
         <form method="GET" action="/search">
             <input id="search_field" name="q" type="text">
             <input id="search_button" type="submit" value="Search">
-        </form>
-    </p>
+        </form>    
+    </div>
 
-
-    <h2>Resources</h2>
-
-    <ul>
-        <li><a href="./search/">search</a>: keyword search within title, abstract, and author fields.</li>
-        <li><a href="./topics/">topics</a>: browse all topics.</li>
-
-        {% comment %}
-
-        <li><a href="./articles/">articles</a>: browse all articles.</li>
-        <li><a href="./authors/">authors</a>: browse all authors.</li>
-
-        {% endcomment %}
-
-        <li><a href="./data/coronavirus.bib">coronavirus.bib</a>: BibTeX file containing all citations.</li>
-    </ul>
+    <div style="margin-top: 1em; text-align: center;">
+        Coronavirus Index (<a href="http://covindex.com">CoV Index</a>) is a guide to Coronavirus research and researchers.
+    </div>
 
 </div>
 

@@ -16,6 +16,9 @@ var indexLoaded = function (e) {
     if (location.search != "") {
         search(get_search_query());
     }
+    else {
+        document.getElementById("search").placeholder = "ready to search";
+    }
 }
 
 
