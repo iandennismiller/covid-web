@@ -6,33 +6,40 @@ image:      /media/thumb-big.jpg
 {% assign id = page.id %}
 {% assign this = site.data.authors[id] %}
 
-<style>
-    .post-title {
-        display: none !important;
-    }
-</style>
+<link rel="stylesheet" href="/css/covindex.css">
 
-<div class="home">
+<article class="post">
 
-    <h1>{{ this.name }}</h1>
+    <header class="post-header">
+      <h1 class="post-title">{{ this.name }}</h1>
+    </header>
+  
+    <div class="post-content">
 
-    <h2>Articles</h2>
+        <div class="home">
 
-    <ul>
-    {% for article_key in this.articles %}
-    <li>
-        <p>
-            <a href="/articles/{{ article_key|downcase }}.html">{{ site.data.articles[article_key].title }}</a>
-        </p>
-        <p>
-            {% assign author_list = site.data.articles[article_key].author | split: " and " %}
-            {% for author in author_list %}
-                {{ author }}
-            {% endfor %}.
-        </p>
+            <h4>Articles</h4>
+       
+            <ul id="results">
+            {% for article_key in this.articles %}
+            <li>
+                <a class="search-result" href="/articles/{{ article_key|downcase }}.html">{{ site.data.articles[article_key].title }}</a>
         
-    </li>
-    {% endfor %}
-    </ul>
+                <p>
+                    {% assign author_list = site.data.articles[article_key].author | split: " and " %}
+                    {% for author in author_list %}
+                        <a href="/authors/{{author|slugify}}.html">👤 {{ author }}</a>
+                    {% endfor %}.
+                    ({{ site.data.articles[article_key].year }}).
+                    📚 {{ site.data.articles[article_key].journal }}.
+                </p>
+                
+            </li>
+            {% endfor %}
+            </ul>
+        
+        </div>        
 
-</div>
+    </div>
+ 
+</article>

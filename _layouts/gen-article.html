@@ -3,101 +3,95 @@ layout:     page-nosocial-rendered
 image:      /media/thumb-big.jpg
 ---
 
-{% assign page.title = site.data.articles[id].title %}
-
 {% assign id = page.id %}
 {% assign this = site.data.articles[id] %}
 
-<style>
-    .var {
-        display: inline-block;
-        width: 7em;
-        font-weight: bold;
-    }
+<link rel="stylesheet" href="/css/covindex.css">
 
-    .value {
-        display: inline-block;
-    }
+<article class="post">
 
-    .post-title {
-        display: none !important;
-    }
-</style>
+    <header class="post-header">
+      <h1 class="post-title">{{ site.data.articles[id].title }}</h1>
+    </header>
+  
+    <div class="post-content">
 
-<div class="home">
+        <div class="home">
 
-    <h1>{{ this.title }}</h1>
+            <div style="margin-bottom: 1em;">
+                {{ this.abstract }}
+            </div>
+        
+            <div style="margin-bottom: 1em;">
+                <span class="var">keywords</span>
+                <span class="value">
+                    {% assign keyword_list = this.keywords | split: ", " %}
+                    {% for keyword in keyword_list %}
+                        <a href="/topics/{{ keyword|slugify }}.html">🔍 {{ keyword }}</a>{% if forloop.last == false %};{% endif %}
+                    {% endfor %}
+                </span>
+            </div>
+        
+            <div style="margin-bottom: 1em;">
+                <div>
+                    <span class="var">author</span>
+                    <span class="value">
+                        {% assign author_list = this.author | split: " and " %}
+                        {% for author in author_list %}
+                            <a href="/authors/{{ author|slugify }}.html">👤 {{ author }}</a>{% if forloop.last == false %};{% endif %}
+                        {% endfor %}
+                    </span>
+                </div>
+        
+                <div>
+                    <span class="var">journal</span>
+                    <span class="value">📚 {{ this.journal }}</span>
+                </div>
+        
+                <div>
+                    <span class="var">issn</span>
+                    <span class="value">{{ this.issn }}</span>
+                </div>
+        
+                <div>
+                    <span class="var">year</span>
+                    <span class="value">{{ this.year }}</span>
+                </div>
+        
+                <div>
+                    <span class="var">volume</span>
+                    <span class="value">{{ this.volume }}</span>
+                </div>
+        
+                <div>
+                    <span class="var">number</span>
+                    <span class="value">{{ this.number }}</span>
+                </div>
+        
+                <div>
+                    <span class="var">page</span>
+                    <span class="value">{{ this.pages }}</span>
+                </div>
+        
+                <div>
+                    <span class="var">doi</span>
+                    <span class="value"><a href="http://dx.doi.org/{{ this.doi }}">📄 {{ this.doi }}</a></span>
+                </div>
+        
+                <div>
+                    <span class="var">citedbycount</span>
+                    <span class="value">{{ this.citedbycount }}</span>
+                </div>
+        
+            </div>
+        
+            <div>
+                <span class="var">download</span>
+                <span class="value"><a href="../bib/{{ this.ID|downcase }}.bib">🔖 [BibTeX]</a></span>
+            </div>
+        
+        </div>
 
-    <div style="margin-bottom: 1em;">
-        {{ this.abstract }}
     </div>
-
-    <div style="margin-bottom: 1em;">
-        <span class="var">keywords</span>
-        <span class="value">
-            {% assign keyword_list = this.keywords | split: ", " %}
-            {% for keyword in keyword_list %}
-                <a href="/topics/{{ keyword|slugify }}.html">🔍 {{ keyword }}</a>;
-            {% endfor %}
-        </span>
-    </div>
-
-    <div style="margin-bottom: 1em;">
-        <div>
-            <span class="var">author</span>
-            <span class="value">
-                {% assign author_list = this.author | split: " and " %}
-                {% for author in author_list %}
-                    <a href="/authors/{{ author|slugify }}.html">👤 {{ author }}</a>;
-                {% endfor %}
-            </span>
-        </div>
-
-        <div>
-            <span class="var">journal</span>
-            <span class="value">{{ this.journal }}</span>
-        </div>
-
-        <div>
-            <span class="var">issn</span>
-            <span class="value">{{ this.issn }}</span>
-        </div>
-
-        <div>
-            <span class="var">year</span>
-            <span class="value">{{ this.year }}</span>
-        </div>
-
-        <div>
-            <span class="var">volume</span>
-            <span class="value">{{ this.volume }}</span>
-        </div>
-
-        <div>
-            <span class="var">number</span>
-            <span class="value">{{ this.number }}</span>
-        </div>
-
-        <div>
-            <span class="var">page</span>
-            <span class="value">{{ this.pages }}</span>
-        </div>
-
-        <div>
-            <span class="var">doi</span>
-            <span class="value"><a href="http://dx.doi.org/{{ this.doi }}">{{ this.doi }}</a></span>
-        </div>
-
-        <div>
-            <span class="var">citedbycount</span>
-            <span class="value">{{ this.citedbycount }}</span>
-        </div>
-
-    </div>
-
-    <div>
-        <span class="var">download</span>
-        <span class="value"><a href="../bib/{{ this.ID|downcase }}.bib">[BibTeX]</a></span>
-    </div>
-
-</div>
+ 
+  </article>

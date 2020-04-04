@@ -47,7 +47,7 @@ var search = function(query) {
 
         var meta_node = document.createElement("p");
         var author_str = '👤 ' + cite_data['a'].join('; 👤 ');
-        meta_node.appendChild(document.createTextNode(author_str + ". (" + cite_data['y'] + "). " + cite_data['j'] + "."));
+        meta_node.appendChild(document.createTextNode(author_str + ". (" + cite_data['y'] + "). " + "📚 " + cite_data['j'] + "."));
 
         var list_node = document.createElement("LI");
         list_node.appendChild(link_node);
