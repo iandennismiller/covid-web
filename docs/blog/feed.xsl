@@ -117,13 +117,7 @@
         
           
             
-              <a class="page-link" href="/topics/over-time.html">Topics Over Time</a>
-            
-          
-        
-          
-            
-              <a class="page-link" href="/topics/index.html">Topics</a>
+              <a class="page-link" href="/topics/over-time.html">Topics</a>
             
           
         
