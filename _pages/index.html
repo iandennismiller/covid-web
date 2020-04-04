@@ -6,31 +6,13 @@ image:      /media/thumb-big.jpg
 excerpt:    CoV Index - The map of Coronavirus Science
 ---
 
-<style type="text/css">
-    .search-result {
-        color: darkslategray;
-        font-size: 1.3em;
-    }
-
-    .search-result:visited {
-        color: gray;
-    }
-
-    #results {
-        list-style: none;
-        margin-left: 0;
-    }
-
-    #search_field, #search_button {
-        font-size: 2em;
-    }
-</style>
+<link rel="stylesheet" href="/css/covindex.css">
 
 <div class="home">
 
     <div align="center">
         <form method="GET" action="/search">
-            <input id="search_field" name="q" type="text">
+            <input id="search" name="q" type="text">
             <input id="search_button" type="submit" value="Search">
         </form>    
     </div>
@@ -42,5 +24,5 @@ excerpt:    CoV Index - The map of Coronavirus Science
 </div>
 
 <script>
-document.getElementById("search_field").focus();
+document.getElementById("search").focus();
 </script>

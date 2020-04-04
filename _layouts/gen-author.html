@@ -18,7 +18,7 @@ image:      /media/thumb-big.jpg
 
         <div class="home">
 
-            <h4>Keywords</h4>
+            <h2>Keywords</h2>
        
             <div>
 
@@ -31,7 +31,7 @@ image:      /media/thumb-big.jpg
             </div>
 
 
-            <h4>Articles</h4>
+            <h2>Articles</h2>
        
             <ul id="results">
             {% for article_key in this.articles %}
@@ -42,9 +42,9 @@ image:      /media/thumb-big.jpg
                     {% assign author_list = site.data.articles[article_key].author | split: " and " %}
                     {% for author in author_list %}
                         <a href="/authors/{{author|slugify}}.html">👤 {{ author }}</a>
-                    {% endfor %}.
-                    ({{ site.data.articles[article_key].year }}).
-                    📚 {{ site.data.articles[article_key].journal }}.
+                    {% endfor %}
+                    ⏰ {{ site.data.articles[article_key].year }}
+                    📚 {{ site.data.articles[article_key].journal }}
                 </p>
                 
             </li>

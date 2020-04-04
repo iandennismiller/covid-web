@@ -10,21 +10,26 @@ excerpt:    CoV Index - Coronavirus Science Topics Over Time
 <link rel="stylesheet" href="/css/covindex.css">
 
 <div class="home">
-
     {% assign decades = "1980s, 1990s, early 2000s, late 2000s, early 2010s, late 2010s" | split: ", " %}
 
-    {% for decade_str in decades %}
-
-    {% assign decade_terms = site.data.keywords_time[decade_str] %}
-
-    <h2>{{ decade_str }}</h2>
-
     <div>
-        {% for keyword in decade_terms %}
-        <a href="/topics/{{keyword|slugify}}.html"><span class="keyword">🔍 {{ keyword }}</span></a>
+        {% for decade_str in decades %}
+            <a href="#{{ decade_str|slugify }}"><span class="keyword">{{ decade_str }}</span></a>
         {% endfor %}
     </div>
 
-    {% endfor %}
+    {% for decade_str in decades %}
+        {% assign decade_terms = site.data.keywords_time[decade_str] %}
 
+        <a name="{{ decade_str|slugify }}"></a>
+        <h2>{{ decade_str }}</h2>
+
+        <div>
+            {% for keyword in decade_terms %}
+            <a href="/topics/{{keyword|slugify}}.html">
+                <span class="keyword">🔍 {{ keyword }}</span>
+            </a>
+            {% endfor %}
+        </div>
+    {% endfor %}
 </div>

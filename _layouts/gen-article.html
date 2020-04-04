@@ -27,7 +27,7 @@ image:      /media/thumb-big.jpg
                 <span class="value">
                     {% assign keyword_list = this.keywords | split: ", " %}
                     {% for keyword in keyword_list %}
-                        <a href="/topics/{{ keyword|slugify }}.html">🔍 {{ keyword }}</a>{% if forloop.last == false %};{% endif %}
+                        <a href="/topics/{{ keyword|slugify }}.html"><span class="keyword">🔍 {{ keyword }}</span></a>
                     {% endfor %}
                 </span>
             </div>
@@ -38,7 +38,7 @@ image:      /media/thumb-big.jpg
                     <span class="value">
                         {% assign author_list = this.author | split: " and " %}
                         {% for author in author_list %}
-                            <a href="/authors/{{ author|slugify }}.html">👤 {{ author }}</a>{% if forloop.last == false %};{% endif %}
+                            <a href="/authors/{{ author|slugify }}.html">👤 {{ author }}</a>
                         {% endfor %}
                     </span>
                 </div>
@@ -55,7 +55,7 @@ image:      /media/thumb-big.jpg
         
                 <div>
                     <span class="var">year</span>
-                    <span class="value">{{ this.year }}</span>
+                    <span class="value">⏰ {{ this.year }}</span>
                 </div>
         
                 <div>

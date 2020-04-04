@@ -46,8 +46,18 @@ var search = function(query) {
         link_node.className = "search-result";
 
         var meta_node = document.createElement("p");
-        var author_str = '👤 ' + cite_data['a'].join('; 👤 ');
-        meta_node.appendChild(document.createTextNode(author_str + ". (" + cite_data['y'] + "). " + "📚 " + cite_data['j'] + "."));
+
+        var author_str = '';
+        for (var author_idx in cite_data['a']) {
+            var author_link_node = document.createElement("a");
+            author_link_node.appendChild(document.createTextNode('👤 ' + cite_data['a'][author_idx]));
+            author_link_node.href = "/authors/" + slugify(cite_data['a'][author_idx], {lower: true, remove: /[*+~.,()'"!:@]/g}) + ".html";
+            meta_node.appendChild(author_link_node);
+            meta_node.appendChild(document.createTextNode(" "));
+        }
+        var cite_str = " ⏰ " + cite_data['y'] + " 📚 " + cite_data['j'];
+        
+        meta_node.appendChild(document.createTextNode(cite_str));
 
         var list_node = document.createElement("LI");
         list_node.appendChild(link_node);

@@ -1,11 +1,11 @@
 .var {
-    display: inline-block;
+    display: table-cell;
     width: 7em;
     font-weight: bold;
 }
 
 .value {
-    display: inline-block;
+    display: table-cell;
 }
 
 .search-result {
@@ -24,6 +24,10 @@
 
 #search, #search_button {
     font-size: 2em;
+}
+
+#search {
+    width: 7em;
 }
 
 .lds-circle {
