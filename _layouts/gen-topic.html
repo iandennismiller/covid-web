@@ -3,22 +3,30 @@ layout:     page-nosocial-rendered
 image:      /media/thumb-big.jpg
 ---
 
+{% assign id = page.id %}
+{% assign this = site.data.keywords[id] %}
+
+<style>
+    .post-title {
+        display: none !important;
+    }
+</style>
+
 <div class="home">
 
-    <div style="margin-bottom: 1em;">
-        {{ page.fullname }}
-    </div>
+    <h1>{{ this.term }}</h1>
 
     <h2>Articles</h2>
 
     <ul>
-    {% for article_key in page.articles %}
+    {% for article_key in this.articles %}
         <li>
             <p>
-                <a href="/articles/{{ article_key|downcase }}.html">{{ site.data.citations[article_key].t }}</a>
+                <a href="/articles/{{ article_key|downcase }}.html">{{ site.data.articles[article_key].title }}</a>
             </p>
             <p>
-                {% for author in site.data.citations[article_key].a %}
+                {% assign author_list = site.data.articles[article_key].author | split: " and " %}
+                {% for author in author_list %}
                     {{ author }}
                 {% endfor %}.
             </p>

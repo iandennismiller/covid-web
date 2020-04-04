@@ -2,17 +2,20 @@
 layout:     none
 ---
 
-@article{{ page.ID|prepend:'{' }},
-    author = {{ page.author|prepend:'{' }}},
-    title = {{ page.title|prepend:'{' }}},
-    journal = {{ page.journal|prepend:'{' }}},
-    issn = {{ page.issn|prepend:'{' }}},
-    year = {{ page.year|prepend:'{' }}},
-    volume = {{ page.volume|prepend:'{' }}},
-    number = {{ page.number|prepend:'{' }}},
-    pages = {{ page.pages|prepend:'{' }}},
-    doi = {{ page.doi|prepend:'{' }}}
-    citedbycount = {{ page.citedbycount|prepend:'{' }}},
-    abstract = {{ page.abstract|prepend:'{' }}},
-    keywords = {{ page.keywords|prepend:'{' }}}
+{% assign id = page.id %}
+{% assign this = site.data.articles[id] %}
+
+@article{{ this.ID|prepend:'{' }},
+    author = {{ this.author|prepend:'{' }}},
+    title = {{ this.title|prepend:'{' }}},
+    journal = {{ this.journal|prepend:'{' }}},
+    issn = {{ this.issn|prepend:'{' }}},
+    year = {{ this.year|prepend:'{' }}},
+    volume = {{ this.volume|prepend:'{' }}},
+    number = {{ this.number|prepend:'{' }}},
+    pages = {{ this.pages|prepend:'{' }}},
+    doi = {{ this.doi|prepend:'{' }}}
+    citedbycount = {{ this.citedbycount|prepend:'{' }}},
+    abstract = {{ this.abstract|prepend:'{' }}},
+    keywords = {{ this.keywords|prepend:'{' }}}
 }

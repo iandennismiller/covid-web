@@ -47,23 +47,23 @@ plugins:
 
 page_gen:
   - index_files: false
-    data: 'authors'
-    template: 'gen-author'
-    name: 'slug'
-    dir: 'authors'
-  - index_files: false
-    data: 'articles'
+    data: 'generator_queue.articles'
     template: 'gen-article'
-    name: 'ID'
+    name: 'id'
     dir: 'articles'
   - index_files: false
-    data: 'articles'
+    data: 'generator_queue.articles'
     template: 'gen-bibtex'
-    name: 'ID'
+    name: 'id'
     dir: 'bib'
     extension: 'bib'
   - index_files: false
-    data: 'keywords'
+    data: 'generator_queue.authors'
+    template: 'gen-author'
+    name: 'id'
+    dir: 'authors'
+  - index_files: false
+    data: 'generator_queue.keywords'
     template: 'gen-topic'
-    name: 'slug'
+    name: 'id'
     dir: 'topics'

@@ -32,5 +32,5 @@ The preliminary results are visualized below.
 
 ## Contact
 
-The [CoV Index](http://covindex.com) project is directed by <a href="http://imiller.utsc.utoronto.ca">Dr. Ian Dennis Miller</a>, a postdoctoral fellow at the University of Toronto.
-Dr. Miller's previous research has investigated scientific progress as a memetic, network process; other work has applied computational linguistic methods to identify memes within a corpus of political speech.
+The [CoV Index](http://covindex.com) project is directed by [Dr. Ian Dennis Miller](https://twitter.com/iandennismiller), a postdoctoral fellow at the [University of Toronto](http://imiller.utsc.utoronto.ca).
+Dr. Miller's previous research has investigated scientific enterprise as a memetic, network process; other work has applied computational linguistic methods to identify memes within a corpus of political speech.
