@@ -8,7 +8,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="CoV Index: Coronavirus Index of Research and Researchers
+  <meta name="description" content="CoV Index is the map of Coronavirus Science.
 " />
   <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@" />
@@ -101489,7 +101489,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <div>CoV Index: Coronavirus Index of Research and Researchers
+        <div>CoV Index is the map of Coronavirus Science.
 </div>
 
         <!-- <div id="blogpost">
