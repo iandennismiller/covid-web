@@ -45,7 +45,9 @@ image:      /media/thumb-big.jpg
         
                 <div>
                     <span class="var">journal</span>
-                    <span class="value">📚 {{ this.journal }}</span>
+                    <span class="value">
+                        <a href="/journals/{{this.journal|slugify}}.html">📚 {{ this.journal }}</a>
+                    </span>
                 </div>
         
                 <div>

@@ -44,7 +44,8 @@ image:      /media/thumb-big.jpg
                         <a href="/authors/{{author|slugify}}.html">👤 {{ author }}</a>
                     {% endfor %}
                     ⏰ {{ site.data.articles[article_key].year }}
-                    📚 {{ site.data.articles[article_key].journal }}
+                    
+                    <a href="/journals/{{site.data.articles[article_key].journal|slugify}}.html">📚 {{ site.data.articles[article_key].journal }}</a>
                 </p>
                 
             </li>

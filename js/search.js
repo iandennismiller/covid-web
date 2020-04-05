@@ -55,18 +55,18 @@ var search = function(query) {
             meta_node.appendChild(author_link_node);
             meta_node.appendChild(document.createTextNode(" "));
         }
-        var cite_str = " ⏰ " + cite_data['y'] + " 📚 " + cite_data['j'];
-        
-        meta_node.appendChild(document.createTextNode(cite_str));
+        meta_node.appendChild(document.createTextNode(" ⏰ " + cite_data['y']));
+
+        var journal_link_node = document.createElement("a");
+        journal_link_node.appendChild(document.createTextNode(" 📚 " + cite_data['j']));
+        journal_link_node.href = "/journals/" + slugify(cite_data['j'], {lower: true, remove: /[*+~.,()'"!:@]/g}) + ".html";
+        meta_node.appendChild(journal_link_node);
 
         var list_node = document.createElement("LI");
         list_node.appendChild(link_node);
         list_node.appendChild(meta_node);
 
         results_node.appendChild(list_node);
-        // console.log(results[idx]);
-        // console.log(results[idx].matchData.toString());
-        // console.log(idx);
         if (idx > 20) {
             break;
         }

@@ -9,7 +9,7 @@
 title: CoV Index
 description: > # this means to ignore newlines until next variable
   CoV Index is the map of Coronavirus Science.
-license: "cc 2020"
+license: "cc 2020 Ian Dennis Miller"
 
 # Links
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -67,3 +67,8 @@ page_gen:
     template: 'gen-topic'
     name: 'id'
     dir: 'topics'
+  - index_files: false
+    data: 'generator_queue.journals'
+    template: 'gen-journal'
+    name: 'id'
+    dir: 'journals'
