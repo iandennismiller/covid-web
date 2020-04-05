@@ -7,20 +7,28 @@
 </description>
     <link>http://covindex.com/</link>
     <atom:link href="http://covindex.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 05 Apr 2020 13:46:06 -0400</pubDate>
-    <lastBuildDate>Sun, 05 Apr 2020 13:46:06 -0400</lastBuildDate>
+    <pubDate>Sun, 05 Apr 2020 16:58:00 -0400</pubDate>
+    <lastBuildDate>Sun, 05 Apr 2020 16:58:00 -0400</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
     
       <item>
-        <title>The first blog post</title>
-        <description>&lt;p&gt;This is a blog post!&lt;/p&gt;
+        <title>Initial launch of CoV Index</title>
+        <description>&lt;p&gt;Today, CoV Index is launching to provide a map of Coronavirus Science.&lt;/p&gt;
+
+&lt;p&gt;Recently, many publishers have opened their research archives in order to support Coronavirus Science.&lt;/p&gt;
+
+&lt;p&gt;We are building on this academic good will by providing an index to permit experts to usefully navigate this new collection of research.&lt;/p&gt;
+
+&lt;p&gt;Our work leverages network analysis, bibliometrics, computer-human interaction, and computational linguistics methods.&lt;/p&gt;
+
+&lt;p&gt;CoV Index is lead by Dr. Ian Dennis Miller, who is a postdoctoral fellow at the University of Toronto.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 29 Jul 2016 00:00:00 -0400</pubDate>
-        <link>http://covindex.com/blog/the-first-blog-post.html</link>
-        <guid isPermaLink="true">http://covindex.com/blog/the-first-blog-post.html</guid>
+        <pubDate>Tue, 24 Mar 2020 00:00:00 -0400</pubDate>
+        <link>http://covindex.com/blog/initial-launch-of-cov-index.html</link>
+        <guid isPermaLink="true">http://covindex.com/blog/initial-launch-of-cov-index.html</guid>
         
-        <category>default</category>
+        <category>meta</category>
         
         
         <category>blog</category>

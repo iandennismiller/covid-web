@@ -70,6 +70,8 @@
       <div class="trigger">
         
           
+        
+          
             
           
         
@@ -94,6 +96,8 @@
           
         
           
+            
+              <a class="page-link" href="/blog/">Blog</a>
             
           
         
@@ -103189,8 +103193,8 @@
         <!-- <div id="blogpost">
           Latest article: 
           
-              <a href="/blog/the-first-blog-post.html">The first blog post</a>
-              <span class="post-meta">Jul 29, 2016</span>
+              <a href="/blog/initial-launch-of-cov-index.html">Initial launch of CoV Index</a>
+              <span class="post-meta">Mar 24, 2020</span>
           
         </div> -->
 
