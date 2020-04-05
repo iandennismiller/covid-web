@@ -1,5 +1,5 @@
 ---
-layout:     default
+layout:     page-nosocial
 title:      Topics
 permalink:  /topics/
 menu:       main
@@ -11,6 +11,11 @@ excerpt:    CoV Index - Coronavirus Science Topics Over Time
 
 <div class="home">
     {% assign decades = "1980s, 1990s, early 2000s, late 2000s, early 2010s, late 2010s" | split: ", " %}
+
+    <p>
+        Over time, the topics studied in Coronavirus Science have shifted.
+        This page enables you to browse topics over the decades.
+    </p>
 
     <div>
         {% for decade_str in decades %}
@@ -26,8 +31,9 @@ excerpt:    CoV Index - Coronavirus Science Topics Over Time
 
         <div>
             {% for keyword in decade_terms %}
-            <a href="/topics/{{keyword|slugify}}.html">
-                <span class="keyword">🔍 {{ keyword }}</span>
+            {% assign keyword_slug = keyword | slugify %}
+            <a href="/topics/{{ keyword_slug }}.html">
+                <span class="keyword">🔍 {{ keyword }} ({{ site.data.keywords[keyword_slug].articles.size }})</span>
             </a>
             {% endfor %}
         </div>

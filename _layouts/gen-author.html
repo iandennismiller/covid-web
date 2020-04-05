@@ -23,8 +23,9 @@ image:      /media/thumb-big.jpg
             <div>
 
                 {% for keyword_key in this.keywords %}
-                <a href="/topics/{{ keyword_key|downcase }}.html">
-                    <span class="keyword">🔗 {{ site.data.keywords[keyword_key].term }}</span>
+                {% assign keyword_slug = keyword_key | downcase %}
+                <a href="/topics/{{ keyword_slug }}.html">
+                    <span class="keyword">🔗 {{ site.data.keywords[keyword_slug].term }} ({{ site.data.keywords[keyword_slug].articles.size }})</span>
                 </a>
                 {% endfor %}
 

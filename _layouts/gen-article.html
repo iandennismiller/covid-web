@@ -27,7 +27,8 @@ image:      /media/thumb-big.jpg
                 <span class="value">
                     {% assign keyword_list = this.keywords | split: ", " %}
                     {% for keyword in keyword_list %}
-                        <a href="/topics/{{ keyword|slugify }}.html"><span class="keyword">🔗 {{ keyword }}</span></a>
+                        {% assign keyword_slug = keyword | slugify %}
+                        <a href="/topics/{{ keyword_slug }}.html"><span class="keyword">🔗 {{ keyword }} ({{ site.data.keywords[keyword_slug].articles.size }})</span></a>
                     {% endfor %}
                 </span>
             </div>
