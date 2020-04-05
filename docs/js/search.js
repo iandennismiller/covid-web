@@ -51,7 +51,7 @@ var search = function(query) {
         for (var author_idx in cite_data['a']) {
             var author_link_node = document.createElement("a");
             author_link_node.appendChild(document.createTextNode('👤 ' + cite_data['a'][author_idx]));
-            author_link_node.href = "/authors/" + slugify(cite_data['a'][author_idx], {lower: true, remove: /[*+~.,()'"!:@]/g}) + ".html";
+            author_link_node.href = "/authors/" + slugify(cite_data['a'][author_idx], {lower: true, remove: /[*+~.,()"!:@]/g}).replace("'", "-") + ".html";
             meta_node.appendChild(author_link_node);
             meta_node.appendChild(document.createTextNode(" "));
         }
