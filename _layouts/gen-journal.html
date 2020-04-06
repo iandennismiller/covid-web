@@ -6,8 +6,6 @@ image:      /media/thumb-big.jpg
 {% assign id = page.id %}
 {% assign this = site.data.journals[id] %}
 
-<link rel="stylesheet" href="/css/covindex.css">
-
 <article class="post">
 
     <header class="post-header">
@@ -18,7 +16,7 @@ image:      /media/thumb-big.jpg
 
         <div class="home">
 
-            <h2>Articles</h2>
+            <h2>Articles ({{ this.articles.size }})</h2>
         
             <ul id="results">
                 {% for article_key in this.articles %}

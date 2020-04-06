@@ -1,5 +1,4 @@
 var searchIndex;
-var results_node = document.getElementById("results");
 var citations;
 
 
@@ -9,7 +8,7 @@ var indexLoaded = function (e) {
     searchIndex = lunr.Index.load(data);
 
     document.getElementById("wait").style.display = "none";
-    // document.getElementById("search").placeholder = "ready to search";
+    document.getElementById("search").placeholder = "search";
     // document.getElementById("search").disabled = false;
     document.getElementById("search").focus();
 
@@ -35,7 +34,12 @@ var search = function(query) {
     }
 
     results = searchIndex.search(query);
+
+    var results_node = document.getElementById("results");
     results_node.innerHTML = "";
+
+    var result_count = document.getElementById("result_count");
+    result_count.innerText = results.length + " documents found.";
 
     for (var idx in results) {
         var cite_data = citations[results[idx].ref];
@@ -67,9 +71,10 @@ var search = function(query) {
         list_node.appendChild(meta_node);
 
         results_node.appendChild(list_node);
-        if (idx > 20) {
-            break;
-        }
+
+        // if (idx > 20) {
+        //     break;
+        // }
     }
 
     if (results.length == 0) {
@@ -132,7 +137,7 @@ var get_search_query = function() {
 }
 
 
-var main = function() {
+var init_search = function() {
     init_search_field();
     request_index();
     request_citations();
@@ -145,5 +150,3 @@ var main = function() {
     }
 
 }
-
-main();

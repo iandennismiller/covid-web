@@ -7,8 +7,6 @@ image:      /media/thumb-big.jpg
 excerpt:    Coronavirus Science Search
 ---
 
-<link rel="stylesheet" href="/css/covindex.css">
-
 <div class="home">
 
     <p align="center">
@@ -20,11 +18,14 @@ excerpt:    Coronavirus Science Search
         <div></div>
     </div>
 
+    <div id="result_count"></div>
+
     <ul id="results"></ul>
 
 </div>
 
-<script src="/js/lunr.js"></script>
-<script src="/js/pako.min.js"></script>
-<script src="/js/slugify.js"></script>
-<script src="/js/search.js"></script>
+<script>
+window.addEventListener('load', function () {
+    init_search();
+});
+</script>

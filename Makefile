@@ -46,4 +46,9 @@ git-init:
 js:
 	java -jar ~/Library/Code/compiler.jar --js _site/js/main.js --js_output_file js/main.min.js
 
+prerendered:
+	wget http://localhost:4000/blank.html -O _layouts/page-nosocial-rendered.html
+	sed -e 's/CONTENT/{{ content }}/' _layouts/page-nosocial-rendered.html > _layouts/page-nosocial-rendered.tmp
+	mv _layouts/page-nosocial-rendered.tmp _layouts/page-nosocial-rendered.html
+
 .PHONY: artwork depends new js publish serve incremental build production install all git-init git-hooks
