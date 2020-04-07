@@ -6,6 +6,7 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
+        {% comment %}
         <ul class="contact-list">
           <!-- <li>{{ site.title }}</li> -->
           <li>
@@ -17,10 +18,12 @@
           </li>
           {% endif %}
         </ul>
+        {% endcomment %}
       </div>
 
       <div class="footer-col footer-col-2">
 
+        {% comment %}
         <img src="{% include icon-logo-png.html %}" width="50" style="margin-top: 6px;" />
 
         <ul class="social-media-list">
@@ -30,9 +33,11 @@
           </li>
           {% endif %}
         </ul>
+        {% endcomment %}
       </div>
 
       <div class="footer-col footer-col-3">
+        
         <div>{{ site.description }}</div>
 
         <!-- <div id="blogpost">
@@ -44,6 +49,7 @@
         </div> -->
 
       </div>
+
     </div>
 
   </div>

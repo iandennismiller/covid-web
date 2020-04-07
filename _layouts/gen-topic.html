@@ -26,10 +26,10 @@ image:      /media/thumb-big.jpg
                     <p>
                         {% assign author_list = site.data.articles[article_key].author | split: " and " %}
                         {% for author in author_list %}
-                            <a href="/authors/{{author|slugify}}.html">👤 {{ author }}</a>
+                            <a href="/authors/{{author|slugify}}.html">👤&nbsp;{{ author }}</a>
                         {% endfor %}
-                        ⏰ {{ site.data.articles[article_key].year }}
-                        <a href="/journals/{{site.data.articles[article_key].journal|slugify}}.html">📚 {{ site.data.articles[article_key].journal }}</a>
+                        ⏰&nbsp;{{ site.data.articles[article_key].year }}
+                        <a href="/journals/{{site.data.articles[article_key].journal|slugify}}.html">📚&nbsp;{{ site.data.articles[article_key].journal }}</a>
                     </p>
                     
                 </li>

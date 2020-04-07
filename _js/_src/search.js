@@ -54,15 +54,15 @@ var search = function(query) {
         var author_str = '';
         for (var author_idx in cite_data['a']) {
             var author_link_node = document.createElement("a");
-            author_link_node.appendChild(document.createTextNode('👤 ' + cite_data['a'][author_idx]));
+            author_link_node.appendChild(document.createTextNode('👤\xa0' + cite_data['a'][author_idx]));
             author_link_node.href = "/authors/" + slugify(cite_data['a'][author_idx], {lower: true, remove: /[*+~.,()"!:@]/g}).replace("'", "-") + ".html";
             meta_node.appendChild(author_link_node);
             meta_node.appendChild(document.createTextNode(" "));
         }
-        meta_node.appendChild(document.createTextNode(" ⏰ " + cite_data['y']));
+        meta_node.appendChild(document.createTextNode(" ⏰\xa0" + cite_data['y']));
 
         var journal_link_node = document.createElement("a");
-        journal_link_node.appendChild(document.createTextNode(" 📚 " + cite_data['j']));
+        journal_link_node.appendChild(document.createTextNode(" 📚\xa0" + cite_data['j']));
         journal_link_node.href = "/journals/" + slugify(cite_data['j'], {lower: true, remove: /[*+~.,()'"!:@]/g}) + ".html";
         meta_node.appendChild(journal_link_node);
 
