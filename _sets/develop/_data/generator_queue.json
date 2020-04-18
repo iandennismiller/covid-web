@@ -1,0 +1,754 @@
+{
+  "articles": [
+    {
+      "id": "Atherton1978TheCoronavirus"
+    },
+    {
+      "id": "Bhatt1977ExperimentalCoronavirus"
+    },
+    {
+      "id": "Bhatt1972CharacterizationGroup"
+    },
+    {
+      "id": "Bingham1977StudiesVirus"
+    },
+    {
+      "id": "Bingham1975HaemagglutinationCoronavirus"
+    },
+    {
+      "id": "Bond1979PathogenicAV"
+    },
+    {
+      "id": "Bradburne1970AntigenicCoronaviruses"
+    },
+    {
+      "id": "Bradburne1972AnCells"
+    },
+    {
+      "id": "Bradburne1972CoronavirusVolunteers"
+    },
+    {
+      "id": "Bradburne1969TheTissueCulture"
+    },
+    {
+      "id": "Bridger1978ReplicationCultures"
+    },
+    {
+      "id": "Bridger1978IsolationDenmark"
+    },
+    {
+      "id": "Bruckov1970TheMonolayers"
+    },
+    {
+      "id": "Bucknall1972IntracellularOc"
+    },
+    {
+      "id": "Bucknall1972StudiesOc"
+    },
+    {
+      "id": "Caul1975CoronavirusGastroenteritis"
+    },
+    {
+      "id": "Caul1977FurtherCoronaviruses"
+    },
+    {
+      "id": "Cavallaro1970CommunityWideMichigan"
+    },
+    {
+      "id": "Chang2000CoronavirusInducedProtein"
+    },
+    {
+      "id": "Clarke1979TheCoronaviruses"
+    },
+    {
+      "id": "Coria1973ProtectiveAerosol"
+    },
+    {
+      "id": "Davies1979ComparisonCoronaviruses"
+    },
+    {
+      "id": "Deshmukh1976HistopathologyCoronavirus"
+    },
+    {
+      "id": "Doughri1977LightCalves"
+    },
+    {
+      "id": "Doughri1976MorphologyCalves"
+    },
+    {
+      "id": "Durham1979RotavirusAnimals"
+    },
+    {
+      "id": "Durham1979RotavirusCalves"
+    },
+    {
+      "id": "Garwes1975IdentificationCoronaviruses"
+    },
+    {
+      "id": "Gerna1978DeterminationMethod"
+    },
+    {
+      "id": "Hajer1979StructuralLy"
+    },
+    {
+      "id": "Hierholzer1972Protein"
+    },
+    {
+      "id": "Hierholzer1976PurificationE"
+    },
+    {
+      "id": "Hovi1978NonspecificSera"
+    },
+    {
+      "id": "Hovi1979OcGroups"
+    },
+    {
+      "id": "Inaba1976ReplicationCulture"
+    },
+    {
+      "id": "Jackson1973VirusesCoronaviruses"
+    },
+    {
+      "id": "Kapikian1972HemadsorptionOc"
+    },
+    {
+      "id": "Kaye1971SeroepidemiologicPopulation"
+    },
+    {
+      "id": "Kaye1977AntigenicSera"
+    },
+    {
+      "id": "Kaye1970PurificationCoronavirus"
+    },
+    {
+      "id": "Larson1980IsolationAdults"
+    },
+    {
+      "id": "Macnaughton1978RibonucleoproteinLikeParticles"
+    },
+    {
+      "id": "Macnaughton1978TheE"
+    },
+    {
+      "id": "McIntosh1978DiagnosisChildren"
+    },
+    {
+      "id": "Monto1974TheInfection"
+    },
+    {
+      "id": "Monto1979EffectReplication"
+    },
+    {
+      "id": "Monto1977DetectionImmunofluorescence"
+    },
+    {
+      "id": "Parker1970RatRats"
+    },
+    {
+      "id": "Pedersen1978AntigenicSpecies"
+    },
+    {
+      "id": "Pensaert1974CharacteristicsPigs"
+    },
+    {
+      "id": "Pensaert1978ASwine"
+    },
+    {
+      "id": "Riski1974OccurrenceFinland"
+    },
+    {
+      "id": "Riski1980CoronavirusCold"
+    },
+    {
+      "id": "Riski1977AntibodiesGel"
+    },
+    {
+      "id": "Ritchie1973ElectronDisease"
+    },
+    {
+      "id": "Robb1979PathogenicViruses"
+    },
+    {
+      "id": "Robb1979PathogenicJhmv"
+    },
+    {
+      "id": "Sato1977PhysicoChemicalCoronavirus"
+    },
+    {
+      "id": "Sato1977HemagglutinationCoronavirus"
+    },
+    {
+      "id": "Schochetman1977PresenceVirus"
+    },
+    {
+      "id": "Stott1976ReplicationTrachea"
+    },
+    {
+      "id": "Sturman1977CharacterizationGels"
+    },
+    {
+      "id": "Sturman1977CharacterizationAnalysis"
+    },
+    {
+      "id": "Sugiyama1980HemagglutinationMice"
+    },
+    {
+      "id": "Tannock1977TheOc"
+    },
+    {
+      "id": "Traavik1977RundeTicks"
+    },
+    {
+      "id": "VanBalken1979DetectionHeha"
+    },
+    {
+      "id": "WilliamsJr1980AstrovirusLikePups"
+    }
+  ],
+  "authors": [
+    {
+      "id": "bingham-r-w"
+    },
+    {
+      "id": "traavik-t"
+    },
+    {
+      "id": "monto-arnold-s"
+    },
+    {
+      "id": "bhatt-p-n"
+    },
+    {
+      "id": "kainulainen-helena"
+    },
+    {
+      "id": "hovi-tapani"
+    },
+    {
+      "id": "woode-g-n"
+    },
+    {
+      "id": "penttinen-kari"
+    },
+    {
+      "id": "bruckova-marie"
+    },
+    {
+      "id": "atherton-j-g"
+    },
+    {
+      "id": "de-bouck-p"
+    },
+    {
+      "id": "cattaneo-ercole"
+    },
+    {
+      "id": "jacoby-r-o"
+    },
+    {
+      "id": "sheng-yi-wei"
+    },
+    {
+      "id": "cavallaro-joseph-j"
+    },
+    {
+      "id": "larson-h-e"
+    },
+    {
+      "id": "bucknall-robert-a"
+    },
+    {
+      "id": "ritchie-a-e"
+    },
+    {
+      "id": "mengeling-w-l"
+    },
+    {
+      "id": "simpson-robert-w"
+    },
+    {
+      "id": "tannock-gregory-a"
+    },
+    {
+      "id": "tyrrell-d-a-j"
+    },
+    {
+      "id": "bond-clifford-w"
+    },
+    {
+      "id": "kjeldsberg-elisabeth"
+    },
+    {
+      "id": "riski-hellevi"
+    },
+    {
+      "id": "percy-dean-h"
+    },
+    {
+      "id": "fisher-anne"
+    },
+    {
+      "id": "monto-a-s"
+    },
+    {
+      "id": "goto-y"
+    },
+    {
+      "id": "straver-p-j"
+    },
+    {
+      "id": "kaye-harold-s"
+    },
+    {
+      "id": "amano-y"
+    },
+    {
+      "id": "mcquillin-joyce"
+    },
+    {
+      "id": "ward-j"
+    },
+    {
+      "id": "robb-james-a"
+    },
+    {
+      "id": "bradburne-a-f"
+    },
+    {
+      "id": "hierholzer-j-c"
+    },
+    {
+      "id": "kelly-sara-j"
+    },
+    {
+      "id": "williams-jr-f-p"
+    },
+    {
+      "id": "ellens-d-j"
+    },
+    {
+      "id": "maassab-h-f"
+    },
+    {
+      "id": "gombold-james-l"
+    },
+    {
+      "id": "james-harvey-d"
+    },
+    {
+      "id": "vaughn-annie-l"
+    },
+    {
+      "id": "durham-p-j"
+    },
+    {
+      "id": "bridger-janice-c"
+    },
+    {
+      "id": "kapikian-albert-z"
+    },
+    {
+      "id": "palmer-e-l"
+    },
+    {
+      "id": "vaananen-pertti"
+    },
+    {
+      "id": "estola-timo"
+    },
+    {
+      "id": "gerna-giuseppe"
+    },
+    {
+      "id": "pensaert-m-b"
+    },
+    {
+      "id": "davies-heather-a"
+    },
+    {
+      "id": "durham-p-j-k"
+    },
+    {
+      "id": "sato-k"
+    },
+    {
+      "id": "stott-e-j"
+    },
+    {
+      "id": "parker-j-c"
+    },
+    {
+      "id": "lim-s-k"
+    },
+    {
+      "id": "sturman-lawrence-s"
+    },
+    {
+      "id": "salmi-aimo"
+    },
+    {
+      "id": "larsen-c-t"
+    },
+    {
+      "id": "deshmukh-d-r"
+    },
+    {
+      "id": "davies-h-a"
+    },
+    {
+      "id": "van-balken-j-a-m"
+    },
+    {
+      "id": "reed-sylvia-e"
+    },
+    {
+      "id": "satoda-k"
+    },
+    {
+      "id": "inaba-y"
+    },
+    {
+      "id": "macnaughton-m-r"
+    },
+    {
+      "id": "hajer-i"
+    },
+    {
+      "id": "rhodes-lenore-m"
+    },
+    {
+      "id": "kaye-h-s"
+    },
+    {
+      "id": "matumoto-m"
+    },
+    {
+      "id": "cross-s-s"
+    },
+    {
+      "id": "patel-b-l"
+    },
+    {
+      "id": "mehl-r"
+    },
+    {
+      "id": "schochetman-gerald"
+    },
+    {
+      "id": "pocock-d-h"
+    },
+    {
+      "id": "reed-c-j"
+    },
+    {
+      "id": "kurogi-h"
+    },
+    {
+      "id": "stevenson-b-j"
+    },
+    {
+      "id": "yarbrough-w-b"
+    },
+    {
+      "id": "chanock-robert-m"
+    },
+    {
+      "id": "stevens-roy-h"
+    },
+    {
+      "id": "sautter-j-h"
+    },
+    {
+      "id": "clarke-s-k-r"
+    },
+    {
+      "id": "jonas-albert-m"
+    },
+    {
+      "id": "meyling-a"
+    },
+    {
+      "id": "farquharson-b-c"
+    },
+    {
+      "id": "fernando-h-s"
+    },
+    {
+      "id": "jebbett-n-j"
+    },
+    {
+      "id": "coria-m-f"
+    },
+    {
+      "id": "somerset-b-a"
+    },
+    {
+      "id": "ito-y"
+    },
+    {
+      "id": "holmes-kathryn-v"
+    },
+    {
+      "id": "leibowitz-julian-l"
+    },
+    {
+      "id": "sugiyama-k"
+    },
+    {
+      "id": "whitfield-s-g"
+    },
+    {
+      "id": "caul-e-o"
+    },
+    {
+      "id": "takahashi-e"
+    },
+    {
+      "id": "gardner-phillip-s"
+    },
+    {
+      "id": "king-lula-m"
+    },
+    {
+      "id": "bhatt-pravin-n"
+    },
+    {
+      "id": "hierholzer-john-c"
+    },
+    {
+      "id": "riski-helle-vi"
+    },
+    {
+      "id": "dowdle-walter-r"
+    },
+    {
+      "id": "de-leeuw-p-w"
+    },
+    {
+      "id": "marsh-h-b"
+    },
+    {
+      "id": "madge-m-h"
+    },
+    {
+      "id": "doughri-a-m"
+    },
+    {
+      "id": "garwes-d-j"
+    },
+    {
+      "id": "nermut-m-v"
+    },
+    {
+      "id": "dowdle-w-r"
+    },
+    {
+      "id": "achilli-giorgio"
+    },
+    {
+      "id": "omori-t"
+    },
+    {
+      "id": "pedersen-n-c"
+    },
+    {
+      "id": "callebaut-p-e"
+    },
+    {
+      "id": "bridger-j-c"
+    },
+    {
+      "id": "pomeroy-b-s"
+    },
+    {
+      "id": "mcintosh-kenneth"
+    },
+    {
+      "id": "cereda-paolo"
+    },
+    {
+      "id": "rowe-w-p"
+    },
+    {
+      "id": "jackson-g-g"
+    },
+    {
+      "id": "kratzing-c-c"
+    },
+    {
+      "id": "egglestone-s-i"
+    },
+    {
+      "id": "storz-j"
+    },
+    {
+      "id": "ziola-barry"
+    },
+    {
+      "id": "thomas-l-h"
+    },
+    {
+      "id": "muldoon-r-l"
+    },
+    {
+      "id": "harrison-a-k"
+    },
+    {
+      "id": "almeida-j-d"
+    },
+    {
+      "id": "wijaszka-t-m"
+    },
+    {
+      "id": "kalica-anthony-r"
+    },
+    {
+      "id": "chang-kevin-w"
+    }
+  ],
+  "journals": [
+    {
+      "id": "journal-of-medical-virology"
+    },
+    {
+      "id": "experimental-and-molecular-pathology"
+    },
+    {
+      "id": "postgraduate-medical-journal"
+    },
+    {
+      "id": "avian-diseases"
+    },
+    {
+      "id": "veterinary-microbiology"
+    },
+    {
+      "id": "proceedings-of-the-society-for-experimental-biology-and-medicine"
+    },
+    {
+      "id": "american-journal-of-epidemiology"
+    },
+    {
+      "id": "scandinavian-journal-of-infectious-diseases"
+    },
+    {
+      "id": "virology"
+    },
+    {
+      "id": "journal-of-hygiene"
+    },
+    {
+      "id": "medical-microbiology-and-immunology"
+    },
+    {
+      "id": "zentralblatt-fur-veterinarmedizin-reihe-b"
+    },
+    {
+      "id": "journal-of-general-virology"
+    },
+    {
+      "id": "journal-of-infectious-diseases"
+    },
+    {
+      "id": "nature"
+    },
+    {
+      "id": "archiv-fur-die-gesamte-virusforschung"
+    },
+    {
+      "id": "archives-of-virology"
+    },
+    {
+      "id": "the-lancet"
+    },
+    {
+      "id": "new-zealand-veterinary-journal"
+    }
+  ],
+  "keywords": [
+    {
+      "id": ""
+    },
+    {
+      "id": "infected-cells"
+    },
+    {
+      "id": "antigenically-related"
+    },
+    {
+      "id": "neutralizing-antibody"
+    },
+    {
+      "id": "virus-strain"
+    },
+    {
+      "id": "lamina-propria"
+    },
+    {
+      "id": "intestinal-epithelial"
+    },
+    {
+      "id": "epithelial-cells"
+    },
+    {
+      "id": "tissue-culture"
+    },
+    {
+      "id": "propria-mucosae"
+    },
+    {
+      "id": "mouse-brain"
+    },
+    {
+      "id": "cell-cultures"
+    },
+    {
+      "id": "hepatitis-virus"
+    },
+    {
+      "id": "complement-fixation"
+    },
+    {
+      "id": "viral-factories"
+    },
+    {
+      "id": "mouse-hepatitis"
+    },
+    {
+      "id": "apparent-molecular"
+    },
+    {
+      "id": "lulas-epiteliales"
+    },
+    {
+      "id": "avian-infectious"
+    },
+    {
+      "id": "human-coronavirus"
+    },
+    {
+      "id": "suckling-mouse"
+    },
+    {
+      "id": "electron-microscopy"
+    },
+    {
+      "id": "organ-cultures"
+    },
+    {
+      "id": "bronchitis-virus"
+    },
+    {
+      "id": "infectious-bronchitis"
+    },
+    {
+      "id": "molecular-weights"
+    },
+    {
+      "id": "membrane-fusion"
+    },
+    {
+      "id": "coronavirus-strain"
+    }
+  ]
+}

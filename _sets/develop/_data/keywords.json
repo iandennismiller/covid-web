@@ -1,0 +1,311 @@
+{
+  "antigenically-related": {
+    "articles": [
+      "Bhatt1972CharacterizationGroup",
+      "Bradburne1970AntigenicCoronaviruses",
+      "Hovi1979OcGroups",
+      "Pedersen1978AntigenicSpecies",
+      "Pensaert1974CharacteristicsPigs"
+    ],
+    "id": "antigenically-related",
+    "term": "antigenically related"
+  },
+  "apparent-molecular": {
+    "articles": [
+      "Hierholzer1972Protein",
+      "Hierholzer1976PurificationE",
+      "Sturman1977CharacterizationGels",
+      "Sturman1977CharacterizationAnalysis",
+      "Tannock1977TheOc"
+    ],
+    "id": "apparent-molecular",
+    "term": "apparent molecular"
+  },
+  "avian-infectious": {
+    "articles": [
+      "Bingham1977StudiesVirus",
+      "Bradburne1970AntigenicCoronaviruses",
+      "Coria1973ProtectiveAerosol",
+      "Davies1979ComparisonCoronaviruses",
+      "Garwes1975IdentificationCoronaviruses",
+      "Macnaughton1978RibonucleoproteinLikeParticles"
+    ],
+    "id": "avian-infectious",
+    "term": "avian infectious"
+  },
+  "bronchitis-virus": {
+    "articles": [
+      "Bingham1977StudiesVirus",
+      "Bradburne1970AntigenicCoronaviruses",
+      "Coria1973ProtectiveAerosol",
+      "Davies1979ComparisonCoronaviruses",
+      "Garwes1975IdentificationCoronaviruses",
+      "Macnaughton1978RibonucleoproteinLikeParticles",
+      "Schochetman1977PresenceVirus"
+    ],
+    "id": "bronchitis-virus",
+    "term": "bronchitis virus"
+  },
+  "cell-cultures": {
+    "articles": [
+      "Bridger1978IsolationDenmark",
+      "Kapikian1972HemadsorptionOc",
+      "Monto1979EffectReplication",
+      "Parker1970RatRats",
+      "Pensaert1974CharacteristicsPigs",
+      "Traavik1977RundeTicks"
+    ],
+    "id": "cell-cultures",
+    "term": "cell cultures"
+  },
+  "complement-fixation": {
+    "articles": [
+      "Bradburne1970AntigenicCoronaviruses",
+      "Cavallaro1970CommunityWideMichigan",
+      "Gerna1978DeterminationMethod",
+      "Hovi1978NonspecificSera",
+      "Hovi1979OcGroups",
+      "Kaye1977AntigenicSera",
+      "Riski1980CoronavirusCold"
+    ],
+    "id": "complement-fixation",
+    "term": "complement fixation"
+  },
+  "coronavirus-strain": {
+    "articles": [
+      "Davies1979ComparisonCoronaviruses",
+      "Doughri1977LightCalves",
+      "Hajer1979StructuralLy",
+      "Hovi1979OcGroups",
+      "Kaye1971SeroepidemiologicPopulation",
+      "Kaye1970PurificationCoronavirus",
+      "Macnaughton1978RibonucleoproteinLikeParticles",
+      "Macnaughton1978TheE",
+      "McIntosh1978DiagnosisChildren"
+    ],
+    "id": "coronavirus-strain",
+    "term": "coronavirus strain"
+  },
+  "electron-microscopy": {
+    "articles": [
+      "Bridger1978IsolationDenmark",
+      "Caul1975CoronavirusGastroenteritis",
+      "Doughri1977LightCalves",
+      "Doughri1976MorphologyCalves",
+      "Durham1979RotavirusAnimals",
+      "Larson1980IsolationAdults",
+      "Pensaert1978ASwine",
+      "Robb1979PathogenicJhmv",
+      "WilliamsJr1980AstrovirusLikePups"
+    ],
+    "id": "electron-microscopy",
+    "term": "electron microscopy"
+  },
+  "epithelial-cells": {
+    "articles": [
+      "Bridger1978ReplicationCultures",
+      "Caul1975CoronavirusGastroenteritis",
+      "Caul1977FurtherCoronaviruses",
+      "Deshmukh1976HistopathologyCoronavirus",
+      "Doughri1977LightCalves",
+      "Doughri1976MorphologyCalves",
+      "McIntosh1978DiagnosisChildren"
+    ],
+    "id": "epithelial-cells",
+    "term": "epithelial cells"
+  },
+  "hepatitis-virus": {
+    "articles": [
+      "Bradburne1970AntigenicCoronaviruses",
+      "Chang2000CoronavirusInducedProtein",
+      "Davies1979ComparisonCoronaviruses",
+      "Macnaughton1978RibonucleoproteinLikeParticles",
+      "Parker1970RatRats",
+      "Pedersen1978AntigenicSpecies"
+    ],
+    "id": "hepatitis-virus",
+    "term": "hepatitis virus"
+  },
+  "human-coronavirus": {
+    "articles": [
+      "Bruckov1970TheMonolayers",
+      "Bucknall1972StudiesOc",
+      "Davies1979ComparisonCoronaviruses",
+      "Hierholzer1972Protein",
+      "Hovi1978NonspecificSera",
+      "Hovi1979OcGroups",
+      "Kaye1977AntigenicSera",
+      "Macnaughton1978RibonucleoproteinLikeParticles",
+      "Macnaughton1978TheE",
+      "Monto1979EffectReplication",
+      "Pedersen1978AntigenicSpecies",
+      "Riski1974OccurrenceFinland",
+      "Riski1980CoronavirusCold"
+    ],
+    "id": "human-coronavirus",
+    "term": "human coronavirus"
+  },
+  "infected-cells": {
+    "articles": [
+      "Bucknall1972IntracellularOc",
+      "Doughri1977LightCalves",
+      "Doughri1976MorphologyCalves",
+      "Pensaert1974CharacteristicsPigs"
+    ],
+    "id": "infected-cells",
+    "term": "infected cells"
+  },
+  "infectious-bronchitis": {
+    "articles": [
+      "Bingham1977StudiesVirus",
+      "Bradburne1970AntigenicCoronaviruses",
+      "Coria1973ProtectiveAerosol",
+      "Davies1979ComparisonCoronaviruses",
+      "Garwes1975IdentificationCoronaviruses",
+      "Macnaughton1978RibonucleoproteinLikeParticles",
+      "Schochetman1977PresenceVirus"
+    ],
+    "id": "infectious-bronchitis",
+    "term": "infectious bronchitis"
+  },
+  "intestinal-epithelial": {
+    "articles": [
+      "Caul1975CoronavirusGastroenteritis",
+      "Doughri1977LightCalves",
+      "Doughri1976MorphologyCalves"
+    ],
+    "id": "intestinal-epithelial",
+    "term": "intestinal epithelial"
+  },
+  "lamina-propria": {
+    "articles": [
+      "Doughri1977LightCalves"
+    ],
+    "id": "lamina-propria",
+    "term": "lamina propria"
+  },
+  "lulas-epiteliales": {
+    "articles": [
+      "Doughri1977LightCalves"
+    ],
+    "id": "lulas-epiteliales",
+    "term": "lulas epiteliales"
+  },
+  "membrane-fusion": {
+    "articles": [
+      "Chang2000CoronavirusInducedProtein"
+    ],
+    "id": "membrane-fusion",
+    "term": "membrane fusion"
+  },
+  "molecular-weights": {
+    "articles": [
+      "Hajer1979StructuralLy",
+      "Hierholzer1972Protein",
+      "Hierholzer1976PurificationE",
+      "Sturman1977CharacterizationGels",
+      "Sturman1977CharacterizationAnalysis"
+    ],
+    "id": "molecular-weights",
+    "term": "molecular weights"
+  },
+  "mouse-brain": {
+    "articles": [
+      "Hierholzer1972Protein",
+      "Hovi1979OcGroups",
+      "Kaye1977AntigenicSera",
+      "Kaye1970PurificationCoronavirus"
+    ],
+    "id": "mouse-brain",
+    "term": "mouse brain"
+  },
+  "mouse-hepatitis": {
+    "articles": [
+      "Chang2000CoronavirusInducedProtein",
+      "Davies1979ComparisonCoronaviruses",
+      "Macnaughton1978RibonucleoproteinLikeParticles",
+      "Parker1970RatRats",
+      "Pedersen1978AntigenicSpecies"
+    ],
+    "id": "mouse-hepatitis",
+    "term": "mouse hepatitis"
+  },
+  "neutralizing-antibody": {
+    "articles": [
+      "Bradburne1972CoronavirusVolunteers",
+      "Cavallaro1970CommunityWideMichigan",
+      "Inaba1976ReplicationCulture",
+      "Monto1974TheInfection"
+    ],
+    "id": "neutralizing-antibody",
+    "term": "neutralizing antibody"
+  },
+  "organ-cultures": {
+    "articles": [
+      "Atherton1978TheCoronavirus",
+      "Bradburne1969TheTissueCulture",
+      "Bridger1978ReplicationCultures",
+      "Bridger1978IsolationDenmark",
+      "Caul1975CoronavirusGastroenteritis",
+      "Clarke1979TheCoronaviruses",
+      "Larson1980IsolationAdults",
+      "Stott1976ReplicationTrachea"
+    ],
+    "id": "organ-cultures",
+    "term": "organ cultures"
+  },
+  "propria-mucosae": {
+    "articles": [
+      "Doughri1977LightCalves"
+    ],
+    "id": "propria-mucosae",
+    "term": "propria mucosae"
+  },
+  "suckling-mouse": {
+    "articles": [
+      "Hierholzer1972Protein",
+      "Hovi1979OcGroups",
+      "Kaye1977AntigenicSera"
+    ],
+    "id": "suckling-mouse",
+    "term": "suckling mouse"
+  },
+  "tissue-culture": {
+    "articles": [
+      "Bradburne1969TheTissueCulture",
+      "Bruckov1970TheMonolayers",
+      "Hierholzer1976PurificationE",
+      "Larson1980IsolationAdults",
+      "Stott1976ReplicationTrachea"
+    ],
+    "id": "tissue-culture",
+    "term": "tissue culture"
+  },
+  "viral-factories": {
+    "articles": [
+      "Doughri1977LightCalves",
+      "Doughri1976MorphologyCalves"
+    ],
+    "id": "viral-factories",
+    "term": "viral factories"
+  },
+  "virus-strain": {
+    "articles": [
+      "Bradburne1972CoronavirusVolunteers",
+      "Chang2000CoronavirusInducedProtein",
+      "Davies1979ComparisonCoronaviruses",
+      "Doughri1977LightCalves",
+      "Doughri1976MorphologyCalves",
+      "Hajer1979StructuralLy",
+      "Hovi1979OcGroups",
+      "Kaye1971SeroepidemiologicPopulation",
+      "Kaye1970PurificationCoronavirus",
+      "Macnaughton1978RibonucleoproteinLikeParticles",
+      "Macnaughton1978TheE",
+      "McIntosh1978DiagnosisChildren",
+      "Traavik1977RundeTicks"
+    ],
+    "id": "virus-strain",
+    "term": "virus strain"
+  }
+}

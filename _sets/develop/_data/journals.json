@@ -1,0 +1,184 @@
+{
+  "american-journal-of-epidemiology": {
+    "articles": [
+      "Kaye1971SeroepidemiologicPopulation"
+    ],
+    "id": "american-journal-of-epidemiology",
+    "name": "American Journal of Epidemiology"
+  },
+  "archiv-fur-die-gesamte-virusforschung": {
+    "articles": [
+      "Bradburne1970AntigenicCoronaviruses",
+      "Bradburne1972AnCells",
+      "Bradburne1969TheTissueCulture",
+      "Coria1973ProtectiveAerosol",
+      "Parker1970RatRats",
+      "Pensaert1974CharacteristicsPigs"
+    ],
+    "id": "archiv-fur-die-gesamte-virusforschung",
+    "name": "Archiv f\u00fcr die gesamte Virusforschung"
+  },
+  "archives-of-virology": {
+    "articles": [
+      "Atherton1978TheCoronavirus",
+      "Bhatt1977ExperimentalCoronavirus",
+      "Bridger1978ReplicationCultures",
+      "Caul1977FurtherCoronaviruses",
+      "Davies1979ComparisonCoronaviruses",
+      "Hajer1979StructuralLy",
+      "Inaba1976ReplicationCulture",
+      "Pedersen1978AntigenicSpecies",
+      "Pensaert1978ASwine",
+      "Sugiyama1980HemagglutinationMice",
+      "Traavik1977RundeTicks",
+      "WilliamsJr1980AstrovirusLikePups"
+    ],
+    "id": "archives-of-virology",
+    "name": "Archives of Virology"
+  },
+  "avian-diseases": {
+    "articles": [
+      "Deshmukh1976HistopathologyCoronavirus",
+      "Ritchie1973ElectronDisease"
+    ],
+    "id": "avian-diseases",
+    "name": "Avian diseases"
+  },
+  "experimental-and-molecular-pathology": {
+    "articles": [
+      "Doughri1976MorphologyCalves"
+    ],
+    "id": "experimental-and-molecular-pathology",
+    "name": "Experimental and Molecular Pathology"
+  },
+  "journal-of-general-virology": {
+    "articles": [
+      "Bingham1977StudiesVirus",
+      "Bingham1975HaemagglutinationCoronavirus",
+      "Macnaughton1978RibonucleoproteinLikeParticles",
+      "Macnaughton1978TheE"
+    ],
+    "id": "journal-of-general-virology",
+    "name": "Journal of General Virology"
+  },
+  "journal-of-hygiene": {
+    "articles": [
+      "Bradburne1972CoronavirusVolunteers"
+    ],
+    "id": "journal-of-hygiene",
+    "name": "Journal of Hygiene"
+  },
+  "journal-of-infectious-diseases": {
+    "articles": [
+      "Bhatt1972CharacterizationGroup",
+      "Cavallaro1970CommunityWideMichigan",
+      "Jackson1973VirusesCoronaviruses",
+      "Kaye1977AntigenicSera",
+      "Monto1974TheInfection"
+    ],
+    "id": "journal-of-infectious-diseases",
+    "name": "Journal of Infectious Diseases"
+  },
+  "journal-of-medical-virology": {
+    "articles": [
+      "Gerna1978DeterminationMethod",
+      "Hovi1979OcGroups",
+      "Larson1980IsolationAdults",
+      "McIntosh1978DiagnosisChildren",
+      "Riski1980CoronavirusCold"
+    ],
+    "id": "journal-of-medical-virology",
+    "name": "Journal of Medical Virology"
+  },
+  "medical-microbiology-and-immunology": {
+    "articles": [
+      "Hovi1978NonspecificSera"
+    ],
+    "id": "medical-microbiology-and-immunology",
+    "name": "Medical Microbiology and Immunology"
+  },
+  "nature": {
+    "articles": [
+      "Garwes1975IdentificationCoronaviruses"
+    ],
+    "id": "nature",
+    "name": "Nature"
+  },
+  "new-zealand-veterinary-journal": {
+    "articles": [
+      "Durham1979RotavirusAnimals",
+      "Durham1979RotavirusCalves"
+    ],
+    "id": "new-zealand-veterinary-journal",
+    "name": "New Zealand Veterinary Journal"
+  },
+  "postgraduate-medical-journal": {
+    "articles": [
+      "Clarke1979TheCoronaviruses"
+    ],
+    "id": "postgraduate-medical-journal",
+    "name": "Postgraduate Medical Journal"
+  },
+  "proceedings-of-the-society-for-experimental-biology-and-medicine": {
+    "articles": [
+      "Bruckov1970TheMonolayers",
+      "Bucknall1972IntracellularOc",
+      "Bucknall1972StudiesOc",
+      "Kapikian1972HemadsorptionOc",
+      "Kaye1970PurificationCoronavirus",
+      "Monto1979EffectReplication",
+      "Monto1977DetectionImmunofluorescence"
+    ],
+    "id": "proceedings-of-the-society-for-experimental-biology-and-medicine",
+    "name": "Proceedings of the Society for Experimental Biology and Medicine"
+  },
+  "scandinavian-journal-of-infectious-diseases": {
+    "articles": [
+      "Riski1974OccurrenceFinland",
+      "Riski1977AntibodiesGel"
+    ],
+    "id": "scandinavian-journal-of-infectious-diseases",
+    "name": "Scandinavian Journal of Infectious Diseases"
+  },
+  "the-lancet": {
+    "articles": [
+      "Caul1975CoronavirusGastroenteritis"
+    ],
+    "id": "the-lancet",
+    "name": "The Lancet"
+  },
+  "veterinary-microbiology": {
+    "articles": [
+      "Bridger1978IsolationDenmark",
+      "Sato1977PhysicoChemicalCoronavirus",
+      "Sato1977HemagglutinationCoronavirus",
+      "Stott1976ReplicationTrachea",
+      "VanBalken1979DetectionHeha"
+    ],
+    "id": "veterinary-microbiology",
+    "name": "Veterinary Microbiology"
+  },
+  "virology": {
+    "articles": [
+      "Bond1979PathogenicAV",
+      "Chang2000CoronavirusInducedProtein",
+      "Hierholzer1972Protein",
+      "Hierholzer1976PurificationE",
+      "Robb1979PathogenicViruses",
+      "Robb1979PathogenicJhmv",
+      "Schochetman1977PresenceVirus",
+      "Sturman1977CharacterizationGels",
+      "Sturman1977CharacterizationAnalysis",
+      "Tannock1977TheOc"
+    ],
+    "id": "virology",
+    "name": "Virology"
+  },
+  "zentralblatt-fur-veterinarmedizin-reihe-b": {
+    "articles": [
+      "Doughri1977LightCalves"
+    ],
+    "id": "zentralblatt-fur-veterinarmedizin-reihe-b",
+    "name": "Zentralblatt f\u00fcr Veterin\u00e4rmedizin Reihe B"
+  }
+}
