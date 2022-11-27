@@ -1,6 +1,6 @@
 # CoV Index
 
-http://covindex.com
+https://iandennismiller.github.io/covid-web/
 
 CoV Index is the map of Coronavirus Science.
 
