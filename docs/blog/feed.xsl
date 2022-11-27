@@ -14,19 +14,19 @@
 <meta name="twitter:site" content="@" />
 <meta name="twitter:title" content="" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:image" content="http://covindex.com" />
+<meta name="twitter:image" content="https://iandennismiller.github.io/covid-web" />
 
   <meta property="og:site_name" content="CoV Index"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="CoV Index"/>
 <meta property="og:description" content=""/>
-<meta property="og:url" content="http://covindex.com/blog/feed.xsl"/>
-<meta property="og:image" content="http://covindex.com"/>
+<meta property="og:url" content="https://iandennismiller.github.io/covid-web/blog/feed.xsl"/>
+<meta property="og:image" content="https://iandennismiller.github.io/covid-web"/>
 
 
   <link rel="sitemap" href="/sitemap.xml" />
-  <link rel="canonical" href="http://covindex.com/blog/feed.xsl" />
-  <link rel="alternate" type="application/rss+xml" title="CoV Index" href="http://covindex.com/blog/feed.xml" />
+  <link rel="canonical" href="https://iandennismiller.github.io/covid-web/blog/feed.xsl" />
+  <link rel="alternate" type="application/rss+xml" title="CoV Index" href="https://iandennismiller.github.io/covid-web/blog/feed.xml" />
 
   <title>CoV Index measures open source influence </title>
 
@@ -37,8 +37,8 @@
   </style>
 
   
-    <!-- <script src="/js/main.min.js"></script> -->
-    <script src="/js/main.js"></script>
+    <!-- <script src="/covid-web/js/main.min.js"></script> -->
+    <script src="/covid-web/js/main.js"></script>
   
 
 </head>
@@ -56,7 +56,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/"><img width="24" height="24" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGuSURBVHic7d1BalVBFEXRUt4AxPnPSiUgBgRDQESjIMaPDZ3EachmrQGczub2CurFOefv2fo83ns/3ruN9z6O994tx14ux/j/CBwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncNx1zrkfbz6M957Ge2/He+s3aI/LMRccJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHHXOefPePN5vPdtvPdqvLd+Mzbdc8FxAscJHCdwnMBxAscJHCdwnMBxAscJHCdwnMBxAscJHCdwnMBxAscJHHedc76PN3+M976M996M99ZvsqZ/NbrgOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI67zv4vv9/jva/jvQ/jvfWbttfLMRccJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHHXOec23rwb7/0c763/Vvw03vu1HHPBcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRz3D7O8IB766ZH3AAAAAElFTkSuQmCC" /> CoV Index</a>
+    <a class="site-title" href="/covid-web/"><img width="24" height="24" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGuSURBVHic7d1BalVBFEXRUt4AxPnPSiUgBgRDQESjIMaPDZ3EachmrQGczub2CurFOefv2fo83ns/3ruN9z6O994tx14ux/j/CBwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncNx1zrkfbz6M957Ge2/He+s3aI/LMRccJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHHXOefPePN5vPdtvPdqvLd+Mzbdc8FxAscJHCdwnMBxAscJHCdwnMBxAscJHCdwnMBxAscJHCdwnMBxAscJHHedc76PN3+M976M996M99ZvsqZ/NbrgOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI67zv4vv9/jva/jvQ/jvfWbttfLMRccJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHHXOec23rwb7/0c763/Vvw03vu1HHPBcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRz3D7O8IB766ZH3AAAAAElFTkSuQmCC" /> CoV Index</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -68,10 +68,10 @@
       </a>
 
       <div class="trigger">
-        <a class="page-link" href="/about/">About</a>
-        <a class="page-link" href="/bibtex/">BibTeX</a>
-        <a class="page-link" href="/blog/">Blog</a>
-        <a class="page-link" href="/topics/">Topics</a>
+        <a class="page-link" href="/covid-web/about/">About</a>
+        <a class="page-link" href="/covid-web/bibtex/">BibTeX</a>
+        <a class="page-link" href="/covid-web/blog/">Blog</a>
+        <a class="page-link" href="/covid-web/topics/">Topics</a>
         
       </div>
     </nav>
@@ -111,7 +111,7 @@
              </xsl:for-each>
            </ul>
 
-           <p class="rss-subscribe">subscribe <a class="internal" href="/blog/feed.xml">via RSS</a></p>
+           <p class="rss-subscribe">subscribe <a class="internal" href="/covid-web/blog/feed.xml">via RSS</a></p>
 
          </div>
 
@@ -142,7 +142,7 @@
         <!-- <div id="blogpost">
           Latest article: 
           
-              <a href="/blog/initial-launch-of-cov-index.html">Initial launch of CoV Index</a>
+              <a href="/covid-web/blog/initial-launch-of-cov-index.html">Initial launch of CoV Index</a>
               <span class="post-meta">Mar 24, 2020</span>
           
         </div> -->

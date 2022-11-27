@@ -5,11 +5,11 @@
     <title>CoV Index Blog</title>
     <description>CoV Index is the map of Coronavirus Science.
 </description>
-    <link>http://covindex.com/</link>
-    <atom:link href="http://covindex.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Apr 2020 11:04:42 -0400</pubDate>
-    <lastBuildDate>Sun, 19 Apr 2020 11:04:42 -0400</lastBuildDate>
-    <generator>Jekyll v3.8.6</generator>
+    <link>https://iandennismiller.github.io/covid-web/</link>
+    <atom:link href="https://iandennismiller.github.io/covid-web/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 27 Nov 2022 13:04:26 -0600</pubDate>
+    <lastBuildDate>Sun, 27 Nov 2022 13:04:26 -0600</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
     
     
       <item>
@@ -24,9 +24,9 @@
 
 &lt;p&gt;CoV Index is lead by Dr. Ian Dennis Miller, who is a postdoctoral fellow at the University of Toronto.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 24 Mar 2020 00:00:00 -0400</pubDate>
-        <link>http://covindex.com/blog/initial-launch-of-cov-index.html</link>
-        <guid isPermaLink="true">http://covindex.com/blog/initial-launch-of-cov-index.html</guid>
+        <pubDate>Tue, 24 Mar 2020 00:00:00 -0500</pubDate>
+        <link>https://iandennismiller.github.io/covid-web/blog/initial-launch-of-cov-index.html</link>
+        <guid isPermaLink="true">https://iandennismiller.github.io/covid-web/blog/initial-launch-of-cov-index.html</guid>
         
         <category>meta</category>
         

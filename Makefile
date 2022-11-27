@@ -1,7 +1,10 @@
 # Website Makefile
 
-all:
-	@echo OK
+docker-build:
+	docker run --rm --name jekyll -it -v $$PWD:/srv/jekyll iandennismiller/jekyll /bin/bash -c 'JEKYLL_ENV=production bundle exec jekyll build --incremental'
+
+docker-clean:
+	docker run --rm --name jekyll -it -v $$PWD:/srv/jekyll iandennismiller/jekyll /bin/bash -c 'bundle exec jekyll clean'
 
 requirements:
 	chmod 755 _bin/*
