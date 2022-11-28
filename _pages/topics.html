@@ -31,7 +31,7 @@ excerpt:    CoV Index - Coronavirus Science Topics Over Time
             {% for keyword in decade_terms %}
             {% assign keyword_slug = keyword | slugify %}
             {% if site.data.keywords[keyword_slug].articles.size > 0 %}
-            <a href="/topics/{{ keyword_slug }}.html">
+            <a href="topics/{{ keyword_slug }}.html">
                 <span class="keyword">🔗 {{ keyword }} ({{ site.data.keywords[keyword_slug].articles.size }})</span>
             </a>
             {% endif %}
