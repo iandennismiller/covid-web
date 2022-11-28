@@ -27,7 +27,7 @@ Any time researchers co-authored an article together, a network edge is created 
 The preliminary results are visualized below.
 
 <p align="center">
-    <img src="/media/net/coronavirus-collaboration-network.jpg">
+    <img src="/covid-web/media/net/coronavirus-collaboration-network.jpg">
 </p>
 
 ## Contact

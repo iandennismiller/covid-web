@@ -1,9 +1,9 @@
 ---
 layout:     page
 title:      BibTeX
-permalink:  /bibtex/
+permalink:  /covid-web/bibtex/
 menu:       main
-image:      /media/thumb-big.jpg
+image:      /covid-web/media/thumb-big.jpg
 ---
 
-Download <a href="/data/coronavirus.bib">coronavirus.bib</a>, which is a BibTeX file containing all citations.
+Download <a href="/covid-web/data/coronavirus.bib">coronavirus.bib</a>, which is a BibTeX file containing all citations.

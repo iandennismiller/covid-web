@@ -1,7 +1,15 @@
 # Website Makefile
 
-docker-build:
+all:
 	docker run --rm --name jekyll -it -v $$PWD:/srv/jekyll iandennismiller/jekyll /bin/bash -c 'JEKYLL_ENV=production bundle exec jekyll build --incremental'
+
+	rsync --checksum -avD _site/ docs/
+
+	git add -A
+	git commit -am "automatic publish"
+	git push
+
+	@echo ok
 
 docker-clean:
 	docker run --rm --name jekyll -it -v $$PWD:/srv/jekyll iandennismiller/jekyll /bin/bash -c 'bundle exec jekyll clean'

@@ -154,7 +154,7 @@
   </div>
 
   <div id="content-license">
-    <a href="/license/">cc 2020 Ian Dennis Miller</a>
+    <a href="/covid-web/license/">cc 2020 Ian Dennis Miller</a>
   </div>
 
 </footer>
