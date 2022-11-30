@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="CoV Index is the map of Coronavirus Science.
+" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@iandennismiller" />
+  <meta name="twitter:title" content="CoV Index - virus-genes" />
+  <meta name="twitter:description" content="" />
+  <meta name="twitter:image" content="https://iandennismiller.github.io/covid-web/media/thumb-big.jpg" />
+  
+  <meta property="og:site_name" content="CoV Index"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="virus-genes"/>
+  <meta property="og:description" content=""/>
+  <meta property="og:url" content="https://iandennismiller.github.io/covid-web/journals/virus-genes.html"/>
+  <meta property="og:image" content="https://iandennismiller.github.io/covid-web/media/thumb-big.jpg"/>
+
+<link rel="sitemap" href="https://iandennismiller.github.io/covid-web/sitemap.xml" />
+<link rel="canonical" href="https://iandennismiller.github.io/covid-web/journals/virus-genes.html" />
+<link rel="alternate" type="application/rss+xml" title="CoV Index" href="https://iandennismiller.github.io/covid-web/blog/feed.xml" />
+
+  <title>virus-genes</title>
+
+  
+  <style>
+  body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,hr,dl,dd,ol,ul,figure{margin:0;padding:0}body{font:400 16px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;color:#111;background-color:#fdfdfd;-webkit-text-size-adjust:100%;-webkit-font-feature-settings:"kern" 1;-moz-font-feature-settings:"kern" 1;-o-font-feature-settings:"kern" 1;font-feature-settings:"kern" 1;font-kerning:normal}h1,h2,h3,h4,h5,h6,p,blockquote,pre,ul,ol,dl,figure,.highlight{margin-bottom:15px}img{max-width:100%;vertical-align:middle}figure>img{display:block}figcaption{font-size:14px}ul,ol{margin-left:30px}li>ul,li>ol{margin-bottom:0}h1,h2,h3,h4,h5,h6{font-weight:400}a{color:#2a7ae2;text-decoration:none}a:visited{color:#1756a9}a:hover{color:#111;text-decoration:underline}blockquote{color:#828282;border-left:4px solid #e8e8e8;padding-left:15px;font-size:18px;letter-spacing:-1px;font-style:italic}blockquote>:last-child{margin-bottom:0}pre,code{font-size:15px;border:1px solid #e8e8e8;border-radius:3px;background-color:#eef}code{padding:1px 5px}pre{padding:8px 12px;overflow-x:auto}pre>code{border:0;padding-right:0;padding-left:0}.wrapper{max-width:-webkit-calc(800px - (30px * 2));max-width:calc(800px - (30px * 2));margin-right:auto;margin-left:auto;padding-right:30px;padding-left:30px}@media screen and (max-width: 800px){.wrapper{max-width:-webkit-calc(800px - (30px));max-width:calc(800px - (30px));padding-right:15px;padding-left:15px}}.wrapper:after,.footer-col-wrapper:after{content:"";display:table;clear:both}.icon>svg{display:inline-block;width:16px;height:16px;vertical-align:middle}.icon>svg path{fill:#828282}.site-header{border-top:5px solid #424242;border-bottom:1px solid #e8e8e8;min-height:56px;position:relative}.site-title{font-size:26px;font-weight:300;line-height:56px;letter-spacing:-1px;margin-bottom:0;float:left}.site-title,.site-title:visited{color:#424242}.site-nav{float:right;line-height:56px}.site-nav .menu-icon{display:none}.site-nav .page-link{color:#111;line-height:1.5}.site-nav .page-link:not(:last-child){margin-right:20px}@media screen and (max-width: 600px){.site-nav{position:absolute;top:9px;right:15px;background-color:#fdfdfd;border:1px solid #e8e8e8;border-radius:5px;text-align:right}.site-nav .menu-icon{display:block;float:right;width:36px;height:26px;line-height:0;padding-top:10px;text-align:center}.site-nav .menu-icon>svg{width:18px;height:15px}.site-nav .menu-icon>svg path{fill:#424242}.site-nav .trigger{clear:both;display:none}.site-nav:hover .trigger{display:block;padding-bottom:5px}.site-nav .page-link{display:block;padding:5px 10px;margin-left:20px}.site-nav .page-link:not(:last-child){margin-right:0}}.site-footer{border-top:1px solid #e8e8e8;padding:30px 0}.footer-heading{font-size:18px;margin-bottom:15px}.contact-list,.social-media-list{list-style:none;margin-left:0}.footer-col-wrapper{font-size:15px;color:#828282;margin-left:-15px}.footer-col{float:left;margin-bottom:15px;padding-left:15px}.footer-col-1{width:-webkit-calc(35% - (30px / 2));width:calc(35% - (30px / 2))}.footer-col-2{width:-webkit-calc(20% - (30px / 2));width:calc(20% - (30px / 2))}.footer-col-3{width:-webkit-calc(45% - (30px / 2));width:calc(45% - (30px / 2))}@media screen and (max-width: 800px){.footer-col-1,.footer-col-2{width:-webkit-calc(50% - (30px / 2));width:calc(50% - (30px / 2))}.footer-col-3{width:-webkit-calc(100% - (30px / 2));width:calc(100% - (30px / 2))}}@media screen and (max-width: 600px){.footer-col{float:none;width:-webkit-calc(100% - (30px / 2));width:calc(100% - (30px / 2))}}.page-content{padding:30px 0}.page-heading{font-size:20px}.post-list{margin-left:0;list-style:none}.post-list>li{margin-bottom:30px}.post-meta{font-size:14px;color:#828282}.post-link{display:block;font-size:24px}.post-header{margin-bottom:30px}.post-title{font-size:42px;letter-spacing:-1px;line-height:1}@media screen and (max-width: 800px){.post-title{font-size:36px}}.post-content{margin-bottom:30px}.post-content h2{font-size:32px}@media screen and (max-width: 800px){.post-content h2{font-size:28px}}.post-content h3{font-size:26px}@media screen and (max-width: 800px){.post-content h3{font-size:22px}}.post-content h4{font-size:20px}@media screen and (max-width: 800px){.post-content h4{font-size:18px}}.highlight{background:#fff}.highlighter-rouge .highlight{background:#eef}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k{font-weight:bold}.highlight .o{font-weight:bold}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:bold}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:bold;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#aaa}.highlight .gt{color:#a00}.highlight .kc{font-weight:bold}.highlight .kd{font-weight:bold}.highlight .kp{font-weight:bold}.highlight .kr{font-weight:bold}.highlight .kt{color:#458;font-weight:bold}.highlight .m{color:#099}.highlight .s{color:#d14}.highlight .na{color:teal}.highlight .nb{color:#0086B3}.highlight .nc{color:#458;font-weight:bold}.highlight .no{color:teal}.highlight .ni{color:purple}.highlight .ne{color:#900;font-weight:bold}.highlight .nf{color:#900;font-weight:bold}.highlight .nn{color:#555}.highlight .nt{color:navy}.highlight .nv{color:teal}.highlight .ow{font-weight:bold}.highlight .w{color:#bbb}.highlight .mf{color:#099}.highlight .mh{color:#099}.highlight .mi{color:#099}.highlight .mo{color:#099}.highlight .sb{color:#d14}.highlight .sc{color:#d14}.highlight .sd{color:#d14}.highlight .s2{color:#d14}.highlight .se{color:#d14}.highlight .sh{color:#d14}.highlight .si{color:#d14}.highlight .sx{color:#d14}.highlight .sr{color:#009926}.highlight .s1{color:#d14}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc{color:teal}.highlight .vg{color:teal}.highlight .vi{color:teal}.highlight .il{color:#099}.zoomify{cursor:pointer;cursor:-webkit-zoom-in;cursor:zoom-in}.zoomify.zoomed{cursor:-webkit-zoom-out;cursor:zoom-out;padding:0;margin:0;border:none;border-radius:0;box-shadow:none;position:relative;z-index:1501}.zoomify-shadow{position:fixed;top:0;left:0;right:0;bottom:0;width:100%;height:100%;display:block;z-index:1500;background:rgba(0,0,0,0.3);opacity:0}.zoomify-shadow.zoomed{opacity:1;cursor:pointer;cursor:-webkit-zoom-out;cursor:zoom-out}.share-button{border:1px solid gray;padding:3px;font-size:10pt;background:#f0f0f0;color:#000;-moz-border-radius:4px;border-radius:4px;margin-right:1em}.share-button:visited{color:#000}.share-button:hover{text-decoration:none;background:#dcdcdc}.share-button .icon{vertical-align:text-bottom}.social{margin-bottom:1em}.footer-col-2{text-align:right}.aside{float:right;width:15em;font-style:italic;border:1px dotted;background:1px dotted;padding:1em;margin-left:1em;margin-top:1em;margin-bottom:1em}#content-license{font-size:8pt;text-align:center}@media screen and (max-width: 600px){#account_name_query{width:5em}#example_list li{display:list-item !important}#board{width:18em}.footer-col-2{text-align:center}.aside{float:none;margin:0px auto;width:90%;margin-bottom:2em}}.var{display:table-cell;width:7em;font-weight:bold}.value{display:table-cell}.search-result{color:darkslategray;font-size:1.3em}.search-result:visited{color:gray}#results{list-style:none;margin-left:0}#search,#search_button{font-size:2em;vertical-align:bottom}#search{width:7em}.lds-circle{display:block;transform:translateZ(1px);margin:0 auto}.lds-circle>div{display:block;width:64px;height:64px;margin:8px;border-radius:50%;background:lightgray;animation:lds-circle 4s cubic-bezier(0, 0.2, 0.8, 1) infinite}@keyframes lds-circle{0%, 100%{animation-timing-function:cubic-bezier(0.5, 0, 1, 0.5)}0%{transform:rotateY(0deg)}50%{transform:rotateY(1800deg);animation-timing-function:cubic-bezier(0, 0.5, 0.5, 1)}100%{transform:rotateY(3600deg)}}.keyword{display:inline-block;margin:0.25em 0.5em 0.25em 0;padding:0.25em;border:1px dotted gray}.keyword:hover{background:lightgray}
+
+  </style>
+
+  
+    <script src="/covid-web/js/main.js"></script>
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/covid-web/"><img width="24" height="24" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGuSURBVHic7d1BalVBFEXRUt4AxPnPSiUgBgRDQESjIMaPDZ3EachmrQGczub2CurFOefv2fo83ns/3ruN9z6O994tx14ux/j/CBwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncNx1zrkfbz6M957Ge2/He+s3aI/LMRccJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHHXOefPePN5vPdtvPdqvLd+Mzbdc8FxAscJHCdwnMBxAscJHCdwnMBxAscJHCdwnMBxAscJHCdwnMBxAscJHHedc76PN3+M976M996M99ZvsqZ/NbrgOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI67zv4vv9/jva/jvQ/jvfWbttfLMRccJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHHXOec23rwb7/0c763/Vvw03vu1HHPBcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRz3D7O8IB766ZH3AAAAAElFTkSuQmCC" /> CoV Index</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+              <a class="page-link" href="/covid-web/about/">About</a>
+              <a class="page-link" href="/covid-web/bibtex/">BibTeX</a>
+              <a class="page-link" href="/covid-web/blog/">Blog</a>
+              <a class="page-link" href="/covid-web/topics/">Topics</a>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        
+
+
+<article class="post">
+
+    <header class="post-header">
+      <h1 class="post-title">📚 Virus Genes</h1>
+    </header>
+  
+    <div class="post-content">
+
+        <div class="home">
+
+            <h2>Articles (29)</h2>
+        
+            <ul id="results">
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/chen2019porcinerigi.html">Porcine deltacoronavirus nucleocapsid protein antagonizes IFN-β production by impairing dsRNA and PACT binding to RIG-I</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/chen-jun.html">👤&nbsp;Chen, Jun</a>
+                        
+                            <a href="/covid-web/authors/fang-puxian.html">👤&nbsp;Fang, Puxian</a>
+                        
+                            <a href="/covid-web/authors/wang-mohan.html">👤&nbsp;Wang, Mohan</a>
+                        
+                            <a href="/covid-web/authors/peng-qi.html">👤&nbsp;Peng, Qi</a>
+                        
+                            <a href="/covid-web/authors/ren-jie.html">👤&nbsp;Ren, Jie</a>
+                        
+                            <a href="/covid-web/authors/wang-dang.html">👤&nbsp;Wang, Dang</a>
+                        
+                            <a href="/covid-web/authors/peng-guiqing.html">👤&nbsp;Peng, Guiqing</a>
+                        
+                            <a href="/covid-web/authors/fang-liurong.html">👤&nbsp;Fang, Liurong</a>
+                        
+                            <a href="/covid-web/authors/xiao-shaobo.html">👤&nbsp;Xiao, Shaobo</a>
+                        
+                            <a href="/covid-web/authors/ding-zhen.html">👤&nbsp;Ding, Zhen</a>
+                        
+                        ⏰&nbsp;2019
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/chouljenko1998nucleotidecoronaviruses.html">Nucleotide and predicted amino acid sequences of all genes encoded by the 3' genomic portion (9.5 kb) of respiratory bovine coronaviruses and comparisons among respiratory and enteric coronaviruses</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/chouljenko-vladimir-n.html">👤&nbsp;Chouljenko, Vladimir N.</a>
+                        
+                            <a href="/covid-web/authors/kousoulas-konstantin-g.html">👤&nbsp;Kousoulas, Konstantin G.</a>
+                        
+                            <a href="/covid-web/authors/lin-xiaoqing.html">👤&nbsp;Lin, Xiaoqing</a>
+                        
+                            <a href="/covid-web/authors/storz-johannes.html">👤&nbsp;Storz, Johannes</a>
+                        
+                        ⏰&nbsp;1998
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/chuck2009expressionpastoris.html">Expression of SARS-coronavirus spike glycoprotein in Pichia pastoris</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/chuck-chi-pang.html">👤&nbsp;Chuck, Chi Pang</a>
+                        
+                            <a href="/covid-web/authors/wong-chi-hang.html">👤&nbsp;Wong, Chi Hang</a>
+                        
+                            <a href="/covid-web/authors/chow-larry-ming-cheung.html">👤&nbsp;Chow, Larry Ming Cheung</a>
+                        
+                            <a href="/covid-web/authors/fung-kwok-pui.html">👤&nbsp;Fung, Kwok Pui</a>
+                        
+                            <a href="/covid-web/authors/waye-mary-miu-yee.html">👤&nbsp;Waye, Mary Miu Yee</a>
+                        
+                            <a href="/covid-web/authors/tsui-stephen-kwok-wing.html">👤&nbsp;Tsui, Stephen Kwok Wing</a>
+                        
+                        ⏰&nbsp;2009
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/domaskablicharz2019wholepoland.html">Whole genome characterisation of quail deltacoronavirus detected in Poland</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/domańska-blicharz-katarzyna.html">👤&nbsp;Domańska-Blicharz, Katarzyna</a>
+                        
+                            <a href="/covid-web/authors/kuczkowski-maciej.html">👤&nbsp;Kuczkowski, Maciej</a>
+                        
+                            <a href="/covid-web/authors/sajewicz-krukowska-joanna.html">👤&nbsp;Sajewicz-Krukowska, Joanna</a>
+                        
+                        ⏰&nbsp;2019
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/ducatez2015fulldisease.html">Full genome sequence of guinea fowl coronavirus associated with fulminating disease</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/ducatez-mariette-f.html">👤&nbsp;Ducatez, Mariette F.</a>
+                        
+                            <a href="/covid-web/authors/liais-etienne.html">👤&nbsp;Liais, Etienne</a>
+                        
+                            <a href="/covid-web/authors/croville-guillaume.html">👤&nbsp;Croville, Guillaume</a>
+                        
+                            <a href="/covid-web/authors/guérin-jean-luc.html">👤&nbsp;Guérin, Jean Luc</a>
+                        
+                        ⏰&nbsp;2015
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/farsani2012thee.html">The first complete genome sequences of clinical isolates of human coronavirus 229E</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/farsani-seyed-mohammad-jazaeri.html">👤&nbsp;Farsani, Seyed Mohammad Jazaeri</a>
+                        
+                            <a href="/covid-web/authors/dijkman-ronald.html">👤&nbsp;Dijkman, Ronald</a>
+                        
+                            <a href="/covid-web/authors/jebbink-maarten-f.html">👤&nbsp;Jebbink, Maarten F.</a>
+                        
+                            <a href="/covid-web/authors/goossens-herman.html">👤&nbsp;Goossens, Herman</a>
+                        
+                            <a href="/covid-web/authors/ieven-margareta.html">👤&nbsp;Ieven, Margareta</a>
+                        
+                            <a href="/covid-web/authors/deijs-martin.html">👤&nbsp;Deijs, Martin</a>
+                        
+                            <a href="/covid-web/authors/molenkamp-richard.html">👤&nbsp;Molenkamp, Richard</a>
+                        
+                            <a href="/covid-web/authors/van-der-hoek-lia.html">👤&nbsp;Van Der Hoek, Lia</a>
+                        
+                        ⏰&nbsp;2012
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/gu2019shortcells.html">Short hairpin RNAs targeting M and N genes reduce replication of porcine deltacoronavirus in ST cells</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/gu-wen-yuan.html">👤&nbsp;Gu, Wen yuan</a>
+                        
+                            <a href="/covid-web/authors/li-yan.html">👤&nbsp;Li, Yan</a>
+                        
+                            <a href="/covid-web/authors/liu-bao-jing.html">👤&nbsp;Liu, Bao jing</a>
+                        
+                            <a href="/covid-web/authors/wang-jing.html">👤&nbsp;Wang, Jing</a>
+                        
+                            <a href="/covid-web/authors/yuan-guang-fu.html">👤&nbsp;Yuan, Guang fu</a>
+                        
+                            <a href="/covid-web/authors/chen-shao-jie.html">👤&nbsp;Chen, Shao jie</a>
+                        
+                            <a href="/covid-web/authors/zuo-yu-zhu.html">👤&nbsp;Zuo, Yu Zhu</a>
+                        
+                            <a href="/covid-web/authors/fan-jing-hui.html">👤&nbsp;Fan, Jing Hui</a>
+                        
+                        ⏰&nbsp;2019
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/kim2019completekorea.html">Complete genome analysis of a SARS-like bat coronavirus identified in the Republic of Korea</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/kim-yongkwan.html">👤&nbsp;Kim, Yongkwan</a>
+                        
+                            <a href="/covid-web/authors/son-kidong.html">👤&nbsp;Son, Kidong</a>
+                        
+                            <a href="/covid-web/authors/kim-young-sik.html">👤&nbsp;Kim, Young Sik</a>
+                        
+                            <a href="/covid-web/authors/lee-sook-young.html">👤&nbsp;Lee, Sook Young</a>
+                        
+                            <a href="/covid-web/authors/jheong-weonhwa.html">👤&nbsp;Jheong, Weonhwa</a>
+                        
+                            <a href="/covid-web/authors/oem-jae-ku.html">👤&nbsp;Oem, Jae Ku</a>
+                        
+                        ⏰&nbsp;2019
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/ko2006molecular.html">Molecular characterization of HE, M, and E genes of winter dysentery bovine coronavirus circulated in Korea during 2002-2003</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/ko-chin-koo.html">👤&nbsp;Ko, Chin Koo</a>
+                        
+                            <a href="/covid-web/authors/kang-mun-il.html">👤&nbsp;Kang, Mun Il</a>
+                        
+                            <a href="/covid-web/authors/lim-geum-ki.html">👤&nbsp;Lim, Geum Ki</a>
+                        
+                            <a href="/covid-web/authors/kim-gye-yeop.html">👤&nbsp;Kim, Gye Yeop</a>
+                        
+                            <a href="/covid-web/authors/yoon-soon-seek.html">👤&nbsp;Yoon, Soon Seek</a>
+                        
+                            <a href="/covid-web/authors/park-jong-tae.html">👤&nbsp;Park, Jong Tae</a>
+                        
+                            <a href="/covid-web/authors/jeong-cheol.html">👤&nbsp;Jeong, Cheol</a>
+                        
+                            <a href="/covid-web/authors/park-sung-hee.html">👤&nbsp;Park, Sung Hee</a>
+                        
+                            <a href="/covid-web/authors/park-su-jin.html">👤&nbsp;Park, Su Jin</a>
+                        
+                            <a href="/covid-web/authors/kim-you-jung.html">👤&nbsp;Kim, You Jung</a>
+                        
+                            <a href="/covid-web/authors/jeong-jae-ho.html">👤&nbsp;Jeong, Jae Ho</a>
+                        
+                            <a href="/covid-web/authors/kim-sang-ki.html">👤&nbsp;Kim, Sang Ki</a>
+                        
+                            <a href="/covid-web/authors/park-sang-ilk.html">👤&nbsp;Park, Sang Ilk</a>
+                        
+                            <a href="/covid-web/authors/kim-ha-hyun.html">👤&nbsp;Kim, Ha Hyun</a>
+                        
+                            <a href="/covid-web/authors/kim-kyoung-yoon.html">👤&nbsp;Kim, Kyoung Yoon</a>
+                        
+                            <a href="/covid-web/authors/cho-kyoung-oh.html">👤&nbsp;Cho, Kyoung Oh</a>
+                        
+                        ⏰&nbsp;2006
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/kocherhans2001completionsequence.html">Completion of the porcine epidemic diarrhoea coronavirus (PEDV) genome sequence</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/kocherhans-r.html">👤&nbsp;Kocherhans, R.</a>
+                        
+                            <a href="/covid-web/authors/bridgen-a.html">👤&nbsp;Bridgen, A.</a>
+                        
+                            <a href="/covid-web/authors/ackermann-m.html">👤&nbsp;Ackermann, M.</a>
+                        
+                            <a href="/covid-web/authors/tobler-k.html">👤&nbsp;Tobler, K.</a>
+                        
+                        ⏰&nbsp;2001
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/lecis2019molecularphylogeny.html">Molecular identification of Betacoronavirus in bats from Sardinia (Italy): first detection and phylogeny</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/lecis-roberta.html">👤&nbsp;Lecis, Roberta</a>
+                        
+                            <a href="/covid-web/authors/mucedda-mauro.html">👤&nbsp;Mucedda, Mauro</a>
+                        
+                            <a href="/covid-web/authors/pidinchedda-ermanno.html">👤&nbsp;Pidinchedda, Ermanno</a>
+                        
+                            <a href="/covid-web/authors/pittau-marco.html">👤&nbsp;Pittau, Marco</a>
+                        
+                            <a href="/covid-web/authors/alberti-alberto.html">👤&nbsp;Alberti, Alberto</a>
+                        
+                        ⏰&nbsp;2019
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/leopardi2016theafrica.html">The close genetic relationship of lineage D Betacoronavirus from Nigerian and Kenyan straw-colored fruit bats (Eidolon helvum) is consistent with the existence of a single epidemiological unit across sub-Saharan Africa</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/leopardi-stefania.html">👤&nbsp;Leopardi, Stefania</a>
+                        
+                            <a href="/covid-web/authors/oluwayelu-daniel.html">👤&nbsp;Oluwayelu, Daniel</a>
+                        
+                            <a href="/covid-web/authors/meseko-clement.html">👤&nbsp;Meseko, Clement</a>
+                        
+                            <a href="/covid-web/authors/marciano-sabrina.html">👤&nbsp;Marciano, Sabrina</a>
+                        
+                            <a href="/covid-web/authors/tassoni-luca.html">👤&nbsp;Tassoni, Luca</a>
+                        
+                            <a href="/covid-web/authors/bakarey-solomon.html">👤&nbsp;Bakarey, Solomon</a>
+                        
+                            <a href="/covid-web/authors/monne-isabella.html">👤&nbsp;Monne, Isabella</a>
+                        
+                            <a href="/covid-web/authors/cattoli-giovanni.html">👤&nbsp;Cattoli, Giovanni</a>
+                        
+                            <a href="/covid-web/authors/de-benedictis-paola.html">👤&nbsp;De Benedictis, Paola</a>
+                        
+                        ⏰&nbsp;2016
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/lima2013detectionbrazil.html">Detection of Alphacoronavirus in velvety free-tailed bats (Molossus molossus) and Brazilian free-tailed bats (Tadarida brasiliensis) from urban area of Southern Brazil</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/lima-francisco-esmaile-de-sales.html">👤&nbsp;Lima, Francisco Esmaile De Sales</a>
+                        
+                            <a href="/covid-web/authors/campos-fabrício-souza.html">👤&nbsp;Campos, Fabrício Souza</a>
+                        
+                            <a href="/covid-web/authors/kunert-filho-hiran-castagnino.html">👤&nbsp;Kunert Filho, Hiran Castagnino</a>
+                        
+                            <a href="/covid-web/authors/batista-helena-beatriz-de-carvalho-ruthner.html">👤&nbsp;Batista, Helena Beatriz De Carvalho Ruthner</a>
+                        
+                            <a href="/covid-web/authors/carnielli-júnior-pedro.html">👤&nbsp;Carnielli Júnior, Pedro</a>
+                        
+                            <a href="/covid-web/authors/cibulski-samuel-paulo.html">👤&nbsp;Cibulski, Samuel Paulo</a>
+                        
+                            <a href="/covid-web/authors/spilki-fernando-rosado.html">👤&nbsp;Spilki, Fernando Rosado</a>
+                        
+                            <a href="/covid-web/authors/roehe-paulo-michel.html">👤&nbsp;Roehe, Paulo Michel</a>
+                        
+                            <a href="/covid-web/authors/franco-ana-cláudia.html">👤&nbsp;Franco, Ana Cláudia</a>
+                        
+                        ⏰&nbsp;2013
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/lin2013fullntu.html">Full genome analysis of a novel type II feline coronavirus NTU156</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/lin-chao-nan.html">👤&nbsp;Lin, Chao Nan</a>
+                        
+                            <a href="/covid-web/authors/chang-ruey-yi.html">👤&nbsp;Chang, Ruey Yi</a>
+                        
+                            <a href="/covid-web/authors/su-bi-ling.html">👤&nbsp;Su, Bi Ling</a>
+                        
+                            <a href="/covid-web/authors/chueh-ling-ling.html">👤&nbsp;Chueh, Ling Ling</a>
+                        
+                        ⏰&nbsp;2013
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/liu2006aminocyclooxygenase.html">Amino acids 1 to 422 of the spike protein of SARS associated coronavirus are required for induction of cyclooxygenase-2</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/liu-mo.html">👤&nbsp;Liu, Mo</a>
+                        
+                            <a href="/covid-web/authors/gu-chunfang.html">👤&nbsp;Gu, Chunfang</a>
+                        
+                            <a href="/covid-web/authors/wu-jianguo.html">👤&nbsp;Wu, Jianguo</a>
+                        
+                            <a href="/covid-web/authors/zhu-ying.html">👤&nbsp;Zhu, Ying</a>
+                        
+                        ⏰&nbsp;2006
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/lorsirigool2017the.html">The genetic diversity and complete genome analysis of two novel porcine deltacoronavirus isolates in Thailand in 2015</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/lorsirigool-athip.html">👤&nbsp;Lorsirigool, Athip</a>
+                        
+                            <a href="/covid-web/authors/saeng-chuto-kepalee.html">👤&nbsp;Saeng-chuto, Kepalee</a>
+                        
+                            <a href="/covid-web/authors/madapong-adthakorn.html">👤&nbsp;Madapong, Adthakorn</a>
+                        
+                            <a href="/covid-web/authors/temeeyasen-gun.html">👤&nbsp;Temeeyasen, Gun</a>
+                        
+                            <a href="/covid-web/authors/tripipat-thitima.html">👤&nbsp;Tripipat, Thitima</a>
+                        
+                            <a href="/covid-web/authors/kaewprommal-pavita.html">👤&nbsp;Kaewprommal, Pavita</a>
+                        
+                            <a href="/covid-web/authors/tantituvanont-angkana.html">👤&nbsp;Tantituvanont, Angkana</a>
+                        
+                            <a href="/covid-web/authors/piriyapongsa-jittima.html">👤&nbsp;Piriyapongsa, Jittima</a>
+                        
+                            <a href="/covid-web/authors/nilubol-dachrit.html">👤&nbsp;Nilubol, Dachrit</a>
+                        
+                        ⏰&nbsp;2017
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/minami2016detectioncoronaviruses.html">Detection of novel ferret coronaviruses and evidence of recombination among ferret coronaviruses</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/minami-shohei.html">👤&nbsp;Minami, Shohei</a>
+                        
+                            <a href="/covid-web/authors/kuroda-yudai.html">👤&nbsp;Kuroda, Yudai</a>
+                        
+                            <a href="/covid-web/authors/terada-yutaka.html">👤&nbsp;Terada, Yutaka</a>
+                        
+                            <a href="/covid-web/authors/yonemitsu-kenzo.html">👤&nbsp;Yonemitsu, Kenzo</a>
+                        
+                            <a href="/covid-web/authors/van-nguyen-dung.html">👤&nbsp;Van Nguyen, Dung</a>
+                        
+                            <a href="/covid-web/authors/kuwata-ryusei.html">👤&nbsp;Kuwata, Ryusei</a>
+                        
+                            <a href="/covid-web/authors/shimoda-hiroshi.html">👤&nbsp;Shimoda, Hiroshi</a>
+                        
+                            <a href="/covid-web/authors/takano-ai.html">👤&nbsp;Takano, Ai</a>
+                        
+                            <a href="/covid-web/authors/maeda-ken.html">👤&nbsp;Maeda, Ken</a>
+                        
+                        ⏰&nbsp;2016
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/morita1998primarydvim.html">Primary structures of hemagglutinin-esterase and spike glycoproteins of murine coronavirus DVIM</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/morita-eiji.html">👤&nbsp;Morita, Eiji</a>
+                        
+                            <a href="/covid-web/authors/ebina-hirotaka.html">👤&nbsp;Ebina, Hirotaka</a>
+                        
+                            <a href="/covid-web/authors/muto-akira.html">👤&nbsp;Muto, Akira</a>
+                        
+                            <a href="/covid-web/authors/himeno-hyouta.html">👤&nbsp;Himeno, Hyouta</a>
+                        
+                            <a href="/covid-web/authors/hatakeyama-koki.html">👤&nbsp;Hatakeyama, Koki</a>
+                        
+                            <a href="/covid-web/authors/sugiyama-kazuo.html">👤&nbsp;Sugiyama, Kazuo</a>
+                        
+                        ⏰&nbsp;1998
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/muhairi2016epidemiologicalemirates.html">Epidemiological investigation of Middle East respiratory syndrome coronavirus in dromedary camel farms linked with human infection in Abu Dhabi Emirate, United Arab Emirates</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/muhairi-salama-al.html">👤&nbsp;Muhairi, Salama Al</a>
+                        
+                            <a href="/covid-web/authors/hosani-farida-al.html">👤&nbsp;Hosani, Farida Al</a>
+                        
+                            <a href="/covid-web/authors/eltahir-yassir-m.html">👤&nbsp;Eltahir, Yassir M.</a>
+                        
+                            <a href="/covid-web/authors/mulla-mariam-al.html">👤&nbsp;Mulla, Mariam Al</a>
+                        
+                            <a href="/covid-web/authors/yusof-mohammed-f.html">👤&nbsp;Yusof, Mohammed F.</a>
+                        
+                            <a href="/covid-web/authors/serhan-wissam-s.html">👤&nbsp;Serhan, Wissam S.</a>
+                        
+                            <a href="/covid-web/authors/hashem-farouq-m.html">👤&nbsp;Hashem, Farouq M.</a>
+                        
+                            <a href="/covid-web/authors/elsayed-elsaeid-a.html">👤&nbsp;Elsayed, Elsaeid A.</a>
+                        
+                            <a href="/covid-web/authors/marzoug-bahaaeldin-a.html">👤&nbsp;Marzoug, Bahaaeldin A.</a>
+                        
+                            <a href="/covid-web/authors/abdelazim-assem-s.html">👤&nbsp;Abdelazim, Assem S.</a>
+                        
+                        ⏰&nbsp;2016
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/page1990sequencecoronavirus.html">Sequence analysis of the leader RNA of two porcine coronaviruses: Transmissible gastroenteritis virus and porcine respiratory coronavirus</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/page-kevin-w.html">👤&nbsp;Page, Kevin W.</a>
+                        
+                            <a href="/covid-web/authors/britton-paul.html">👤&nbsp;Britton, Paul</a>
+                        
+                            <a href="/covid-web/authors/boursnell-michael-e-g.html">👤&nbsp;Boursnell, Michael E.G.</a>
+                        
+                        ⏰&nbsp;1990
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/penzes2001completecluster.html">Complete genome sequence of transmissible gastroenteritis coronavirus PUR46-MAD clone and evolution of the purdue virus cluster</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/penzes-z.html">👤&nbsp;Penzes, Z.</a>
+                        
+                            <a href="/covid-web/authors/gonzález-j-m.html">👤&nbsp;González, J. M.</a>
+                        
+                            <a href="/covid-web/authors/calvo-e.html">👤&nbsp;Calvo, E.</a>
+                        
+                            <a href="/covid-web/authors/izeta-a.html">👤&nbsp;Izeta, A.</a>
+                        
+                            <a href="/covid-web/authors/smerdou-c.html">👤&nbsp;Smerdou, C.</a>
+                        
+                            <a href="/covid-web/authors/méndez-a.html">👤&nbsp;Méndez, A.</a>
+                        
+                            <a href="/covid-web/authors/sánchez-c-m.html">👤&nbsp;Sánchez, C. M.</a>
+                        
+                            <a href="/covid-web/authors/sola-i.html">👤&nbsp;Sola, I.</a>
+                        
+                            <a href="/covid-web/authors/almazán-f.html">👤&nbsp;Almazán, F.</a>
+                        
+                            <a href="/covid-web/authors/enjuanes-l.html">👤&nbsp;Enjuanes, L.</a>
+                        
+                        ⏰&nbsp;2001
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/phillips2012changesvirus.html">Changes in nonstructural protein 3 are associated with attenuation in avian coronavirus infectious bronchitis virus</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/phillips-j-e.html">👤&nbsp;Phillips, J. E.</a>
+                        
+                            <a href="/covid-web/authors/jackwood-m-w.html">👤&nbsp;Jackwood, M. W.</a>
+                        
+                            <a href="/covid-web/authors/mckinley-e-t.html">👤&nbsp;McKinley, E. T.</a>
+                        
+                            <a href="/covid-web/authors/thor-s-w.html">👤&nbsp;Thor, S. W.</a>
+                        
+                            <a href="/covid-web/authors/hilt-d-a.html">👤&nbsp;Hilt, D. A.</a>
+                        
+                            <a href="/covid-web/authors/acevedol-n-d.html">👤&nbsp;Acevedol, N. D.</a>
+                        
+                            <a href="/covid-web/authors/williams-s-m.html">👤&nbsp;Williams, S. M.</a>
+                        
+                            <a href="/covid-web/authors/kissinger-j-c.html">👤&nbsp;Kissinger, J. C.</a>
+                        
+                            <a href="/covid-web/authors/paterson-a-h.html">👤&nbsp;Paterson, A. H.</a>
+                        
+                            <a href="/covid-web/authors/robertson-j-s.html">👤&nbsp;Robertson, J. S.</a>
+                        
+                            <a href="/covid-web/authors/lemke-c-z.html">👤&nbsp;Lemke, C. Z.</a>
+                        
+                        ⏰&nbsp;2012
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/shien2014regulationcellspecific.html">Regulation of coronaviral poly(A) tail length during infection is not coronavirus species- or host cell-specific</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/shien-jui-hung.html">👤&nbsp;Shien, Jui Hung</a>
+                        
+                            <a href="/covid-web/authors/su-yi-da.html">👤&nbsp;Su, Yi Da</a>
+                        
+                            <a href="/covid-web/authors/wu-hung-yi.html">👤&nbsp;Wu, Hung Yi</a>
+                        
+                        ⏰&nbsp;2014
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/shin2019geneticvietnam.html">Genetic characterization of bovine coronavirus in Vietnam</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/shin-jihye.html">👤&nbsp;Shin, Jihye</a>
+                        
+                            <a href="/covid-web/authors/tark-dongseob.html">👤&nbsp;Tark, Dongseob</a>
+                        
+                            <a href="/covid-web/authors/le-van-phan.html">👤&nbsp;Le, Van Phan</a>
+                        
+                            <a href="/covid-web/authors/choe-se-eun.html">👤&nbsp;Choe, Se Eun</a>
+                        
+                            <a href="/covid-web/authors/cha-ra-mi.html">👤&nbsp;Cha, Ra Mi</a>
+                        
+                            <a href="/covid-web/authors/park-gyu-nam.html">👤&nbsp;Park, Gyu Nam</a>
+                        
+                            <a href="/covid-web/authors/cho-in-soo.html">👤&nbsp;Cho, In Soo</a>
+                        
+                            <a href="/covid-web/authors/nga-bui-thi-to.html">👤&nbsp;Nga, Bui Thi To</a>
+                        
+                            <a href="/covid-web/authors/lan-nguyen-thi.html">👤&nbsp;Lan, Nguyen Thi</a>
+                        
+                            <a href="/covid-web/authors/an-dong-jun.html">👤&nbsp;An, Dong Jun</a>
+                        
+                        ⏰&nbsp;2019
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/shirato2012detectionjapan.html">Detection of bat coronaviruses from Miniopterus fuliginosus in Japan</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/shirato-kazuya.html">👤&nbsp;Shirato, Kazuya</a>
+                        
+                            <a href="/covid-web/authors/maeda-ken.html">👤&nbsp;Maeda, Ken</a>
+                        
+                            <a href="/covid-web/authors/tsuda-shumpei.html">👤&nbsp;Tsuda, Shumpei</a>
+                        
+                            <a href="/covid-web/authors/suzuki-kazuo.html">👤&nbsp;Suzuki, Kazuo</a>
+                        
+                            <a href="/covid-web/authors/watanabe-shumpei.html">👤&nbsp;Watanabe, Shumpei</a>
+                        
+                            <a href="/covid-web/authors/shimoda-hiroshi.html">👤&nbsp;Shimoda, Hiroshi</a>
+                        
+                            <a href="/covid-web/authors/ueda-naoya.html">👤&nbsp;Ueda, Naoya</a>
+                        
+                            <a href="/covid-web/authors/iha-koichiro.html">👤&nbsp;Iha, Koichiro</a>
+                        
+                            <a href="/covid-web/authors/taniguchi-satoshi.html">👤&nbsp;Taniguchi, Satoshi</a>
+                        
+                            <a href="/covid-web/authors/kyuwa-shigeru.html">👤&nbsp;Kyuwa, Shigeru</a>
+                        
+                            <a href="/covid-web/authors/endoh-daiji.html">👤&nbsp;Endoh, Daiji</a>
+                        
+                            <a href="/covid-web/authors/matsuyama-shutoku.html">👤&nbsp;Matsuyama, Shutoku</a>
+                        
+                            <a href="/covid-web/authors/kurane-ichiro.html">👤&nbsp;Kurane, Ichiro</a>
+                        
+                            <a href="/covid-web/authors/saijo-masayuki.html">👤&nbsp;Saijo, Masayuki</a>
+                        
+                            <a href="/covid-web/authors/morikawa-shigeru.html">👤&nbsp;Morikawa, Shigeru</a>
+                        
+                            <a href="/covid-web/authors/yoshikawa-yasuhiro.html">👤&nbsp;Yoshikawa, Yasuhiro</a>
+                        
+                            <a href="/covid-web/authors/akashi-hiroomi.html">👤&nbsp;Akashi, Hiroomi</a>
+                        
+                            <a href="/covid-web/authors/mizutani-tetsuya.html">👤&nbsp;Mizutani, Tetsuya</a>
+                        
+                        ⏰&nbsp;2012
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/shukla2015acquisitioncoronavirus.html">Acquisition of new protein domains by coronaviruses: analysis of overlapping genes coding for proteins N and 9b in SARS coronavirus</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/shukla-aditi.html">👤&nbsp;Shukla, Aditi</a>
+                        
+                            <a href="/covid-web/authors/hilgenfeld-rolf.html">👤&nbsp;Hilgenfeld, Rolf</a>
+                        
+                        ⏰&nbsp;2015
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/xiao2010genomiccoronavirus.html">Genomic characterization of a proventriculitis-associated infectious bronchitis coronavirus</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/xiao-chao-ting.html">👤&nbsp;Xiao, Chao Ting</a>
+                        
+                            <a href="/covid-web/authors/liu-ran.html">👤&nbsp;Liu, Ran</a>
+                        
+                            <a href="/covid-web/authors/song-zhu-yuan.html">👤&nbsp;Song, Zhu Yuan</a>
+                        
+                            <a href="/covid-web/authors/liao-min.html">👤&nbsp;Liao, Min</a>
+                        
+                            <a href="/covid-web/authors/zhou-ji-yong.html">👤&nbsp;Zhou, Ji Yong</a>
+                        
+                        ⏰&nbsp;2010
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/yang2009translationalcoronavirus.html">Translational control of the subgenomic RNAs of severe acute respiratory syndrome coronavirus</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/yang-yaling.html">👤&nbsp;Yang, Yaling</a>
+                        
+                            <a href="/covid-web/authors/hussain-snawar.html">👤&nbsp;Hussain, Snawar</a>
+                        
+                            <a href="/covid-web/authors/wang-hao.html">👤&nbsp;Wang, Hao</a>
+                        
+                            <a href="/covid-web/authors/ke-min.html">👤&nbsp;Ke, Min</a>
+                        
+                            <a href="/covid-web/authors/guo-deyin.html">👤&nbsp;Guo, Deyin</a>
+                        
+                        ⏰&nbsp;2009
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+                <li>
+
+                    <a class="search-result" href="/covid-web/articles/yusof2015prevalenceemirates.html">Prevalence of Middle East respiratory syndrome coronavirus (MERS-CoV) in dromedary camels in Abu Dhabi Emirate, United Arab Emirates</a>
+            
+                    <p>
+                        
+                        
+                            <a href="/covid-web/authors/yusof-mohammed-f.html">👤&nbsp;Yusof, Mohammed F.</a>
+                        
+                            <a href="/covid-web/authors/eltahir-yassir-m.html">👤&nbsp;Eltahir, Yassir M.</a>
+                        
+                            <a href="/covid-web/authors/serhan-wissam-s.html">👤&nbsp;Serhan, Wissam S.</a>
+                        
+                            <a href="/covid-web/authors/hashem-farouk-m.html">👤&nbsp;Hashem, Farouk M.</a>
+                        
+                            <a href="/covid-web/authors/elsayed-elsaeid-a.html">👤&nbsp;Elsayed, Elsaeid A.</a>
+                        
+                            <a href="/covid-web/authors/marzoug-bahaaeldin-a.html">👤&nbsp;Marzoug, Bahaaeldin A.</a>
+                        
+                            <a href="/covid-web/authors/abdelazim-assem-si.html">👤&nbsp;Abdelazim, Assem Si</a>
+                        
+                            <a href="/covid-web/authors/bensalah-oum-keltoum-a.html">👤&nbsp;Bensalah, Oum Keltoum A.</a>
+                        
+                            <a href="/covid-web/authors/al-muhairi-salama-s.html">👤&nbsp;Al Muhairi, Salama S.</a>
+                        
+                        ⏰&nbsp;2015
+                        <a href="/covid-web/journals/virus-genes.html">📚&nbsp;Virus Genes</a>
+                    </p>
+                    
+                </li>
+                
+            </ul>
+            
+        </div>
+        
+    </div>
+ 
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!-- <h2 class="footer-heading">CoV Index</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        
+      </div>
+
+      <div class="footer-col footer-col-2">
+        
+      </div>
+
+      <div class="footer-col footer-col-3">
+        
+        <div>CoV Index is the map of Coronavirus Science.</div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="content-license">
+    <a href="/covid-web/license/">cc 2020 Ian Dennis Miller</a>
+  </div>
+
+</footer>
+
+  </body>
+
+</html>
