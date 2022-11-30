@@ -14,15 +14,6 @@ CoV Index is the map of Coronavirus Science.
 
 This is built locally with Jekyll, then deployed to github.
 
-How to build:
-
 ```{bash}
-docker run --rm --name jekyll -it -v $PWD:/srv/jekyll iandennismiller/jekyll /bin/bash -c 'JEKYLL_ENV=production bundle exec jekyll build --incremental'
-```
-
-How to deploy via github pages:
-
-```{bash}
-rsync --checksum -avD _site/ docs/
-git add -A && git commit -am "automatic publish" && git push
+make all
 ```
