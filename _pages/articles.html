@@ -10,17 +10,13 @@ excerpt:    Articles
 
 <div class="home">
 
-{% comment %}
-
     <ul>
         {% for article in site.data.articles %}
           <li>
-            <a role="button" class="btn btn-primary" href="{{ site.baseurl }}/articles/{{ article.ID|downcase }}.html">[View]</a>
-            {{ article.author }}. ({{ article.year }}). {{ article.title }}.
+            <a role="button" class="btn btn-primary" href="{{ site.baseurl }}/articles/{{ article[1].ID|downcase }}.html">[View]</a>
+            {{ article[1].author }}. ({{ article[1].year }}). {{ article[1].title }}.
           </li>
         {% endfor %}
     </ul>
-
-{% endcomment %}
 
 </div>

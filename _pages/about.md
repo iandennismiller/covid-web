@@ -7,7 +7,7 @@ image:      /media/thumb-big.jpg
 excerpt:    CoV Index is a research project lead by Ian Dennis Miller at the University of Toronto
 ---
 
-[CoV Index]({{site.url}}/{{ site.baseurl }}) provides a map of Coronavirus Science, including *Research*, Research *Communities*, and *Researchers*.
+[CoV Index]({{site.url}}{{ site.baseurl }}/) provides a map of Coronavirus Science, including *Research*, Research *Communities*, and *Researchers*.
 
 **CoV Index** applies network analysis, bibliometrics, computer-human interaction, and computational linguistics methods to identify communities of Coronavirus research.
 
@@ -32,5 +32,4 @@ The preliminary results are visualized below.
 
 ## Contact
 
-The [CoV Index]({{site.url}}/{{ site.baseurl }}) project is directed by [Dr. Ian Dennis Miller](https://twitter.com/iandennismiller), a postdoctoral fellow at the [University of Toronto](http://imiller.utsc.utoronto.ca).
-Dr. Miller's previous research has investigated scientific enterprise as a memetic, network process; other work has applied computational linguistic methods to identify memes within a corpus of political speech.
+The [CoV Index]({{site.url}}{{ site.baseurl }}/) project is directed by [Dr. Ian Dennis Miller](https://mastodon.social/idm).

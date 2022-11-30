@@ -9,7 +9,7 @@
 title: CoV Index
 description: > # this means to ignore newlines until next variable
   CoV Index is the map of Coronavirus Science.
-license: "cc 2020 Ian Dennis Miller"
+license: "cc 2022 Ian Dennis Miller"
 
 # Links
 baseurl: "/covid-web" # the subpath of your site, e.g. /blog
@@ -23,8 +23,8 @@ exclude: ["docs", "Readme.md", "Todo.md", "Makefile", "vendor", "Gemfile", "Gemf
 # Build settings
 markdown: kramdown
 
-# sass:
-#   style: compressed
+sass:
+  style: compressed
 
 gems:
   - jekyll-sitemap
