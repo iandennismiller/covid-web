@@ -3,7 +3,7 @@ layout:     page-nosocial-rendered
 image:      /media/thumb-big.jpg
 ---
 
-{% assign id = page.id %}
+{% assign id = page.ID %}
 {% assign this = site.data.articles[id] %}
 
 <article class="post">
@@ -26,7 +26,7 @@ image:      /media/thumb-big.jpg
                     {% assign keyword_list = this.keywords | split: ", " %}
                     {% for keyword in keyword_list %}
                         {% assign keyword_slug = keyword | slugify %}
-                        <a href="/topics/{{ keyword_slug }}.html"><span class="keyword">🔗&nbsp;{{ keyword }} ({{ site.data.keywords[keyword_slug].articles.size }})</span></a>
+                        <a href="{{ site.baseurl }}/topics/{{ keyword_slug }}.html"><span class="keyword">🔗&nbsp;{{ keyword }} ({{ site.data.keywords[keyword_slug].articles.size }})</span></a>
                     {% endfor %}
                 </span>
             </div>
@@ -37,7 +37,7 @@ image:      /media/thumb-big.jpg
                     <span class="value">
                         {% assign author_list = this.author | split: " and " %}
                         {% for author in author_list %}
-                            <a href="/authors/{{ author|slugify }}.html">👤&nbsp;{{ author }}</a>
+                            <a href="{{ site.baseurl }}/authors/{{ author|slugify }}.html">👤&nbsp;{{ author }}</a>
                         {% endfor %}
                     </span>
                 </div>
@@ -50,7 +50,7 @@ image:      /media/thumb-big.jpg
                 <div>
                     <span class="var">journal</span>
                     <span class="value">
-                        <a href="/journals/{{this.journal|slugify}}.html">📚 {{ this.journal }}</a>
+                        <a href="{{ site.baseurl }}/journals/{{this.journal|slugify}}.html">📚 {{ this.journal }}</a>
                     </span>
                 </div>
         
@@ -90,7 +90,7 @@ image:      /media/thumb-big.jpg
         
             <div>
                 <span class="var">download</span>
-                <span class="value"><a href="../bib/{{ this.ID|downcase }}.bib">🔖 [BibTeX]</a></span>
+                <span class="value"><a href="{{ site.baseurl }}/bibtex/{{ this.ID|downcase }}.bib">🔖 [BibTeX]</a></span>
             </div>
         
         </div>

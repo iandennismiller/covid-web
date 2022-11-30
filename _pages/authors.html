@@ -2,9 +2,9 @@
 draft:      true
 layout:     default
 title:      Authors
-permalink:  /covid-web/authors/index.html
+permalink:  /authors/index.html
 menu:       none
-image:      /covid-web/media/thumb-big.jpg
+image:      /media/thumb-big.jpg
 excerpt:    Authors
 ---
 
@@ -15,7 +15,7 @@ excerpt:    Authors
     <ul>
         {% for author in site.data.authors %}
           <li>
-              <a href="{{ author.slug }}.html">{{ author.fullname }}</a>
+              <a href="{{ site.baseurl }}/authors/{{ author.slug }}.html">{{ author.fullname }}</a>
           </li>
         {% endfor %}
     </ul>

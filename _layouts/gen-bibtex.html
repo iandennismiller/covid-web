@@ -1,11 +1,7 @@
 ---
-layout:     none
+layout:     null
 ---
-
-{% assign id = page.id %}
-{% assign this = site.data.articles[id] %}
-
-@article{{ this.ID|prepend:'{' }},
+{% assign id = page.ID -%}{% assign this = site.data.articles[id] -%}@article{{ this.ID|prepend:'{' }},
     author = {{ this.author|prepend:'{' }}},
     title = {{ this.title|prepend:'{' }}},
     journal = {{ this.journal|prepend:'{' }}},

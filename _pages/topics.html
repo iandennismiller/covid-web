@@ -1,9 +1,9 @@
 ---
 layout:     page-nosocial
 title:      Topics
-permalink:  /covid-web/topics/
+permalink:  /topics/
 menu:       main
-image:      /covid-web/media/thumb-big.jpg
+image:      /media/thumb-big.jpg
 excerpt:    CoV Index - Coronavirus Science Topics Over Time
 ---
 
@@ -17,7 +17,7 @@ excerpt:    CoV Index - Coronavirus Science Topics Over Time
 
     <div>
         {% for decade_str in decades %}
-            <a href="#{{ decade_str|slugify }}"><span class="keyword">{{ decade_str }}</span></a>
+            <a href="#{{ decade_str | slugify }}"><span class="keyword">{{ decade_str }}</span></a>
         {% endfor %}
     </div>
 
@@ -31,7 +31,7 @@ excerpt:    CoV Index - Coronavirus Science Topics Over Time
             {% for keyword in decade_terms %}
             {% assign keyword_slug = keyword | slugify %}
             {% if site.data.keywords[keyword_slug].articles.size > 0 %}
-            <a href="{{ site.baseurl }}/topics/{{ keyword_slug }}.html">
+            <a href="{{site.baseurl}}/topics/{{ keyword_slug }}.html">
                 <span class="keyword">🔗 {{ keyword }} ({{ site.data.keywords[keyword_slug].articles.size }})</span>
             </a>
             {% endif %}

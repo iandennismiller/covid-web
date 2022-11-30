@@ -11,16 +11,16 @@
   <meta name="twitter:site" content="@iandennismiller" />
   <meta name="twitter:title" content="CoV Index - {{ page.title }}" />
   <meta name="twitter:description" content="{{ page.excerpt }}" />
-  <meta name="twitter:image" content="{{ page.image | prepend: site.url }}" />
+  <meta name="twitter:image" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}" />
   
   <meta property="og:site_name" content="{{ site.title }}"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:title" content="CoV Index - {{ page.title }}"/>
+  <meta property="og:title" content="{{ page.title }}"/>
   <meta property="og:description" content="{{ page.excerpt }}"/>
-  <meta property="og:url" content="{{ page.url | prepend: site.url }}"/>
-  <meta property="og:image" content="{{ page.image | prepend: site.url }}"/>
+  <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}"/>
+  <meta property="og:image" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}"/>
 
-<link rel="sitemap" href="/sitemap.xml" />
+<link rel="sitemap" href="{{ site.url }}{{ site.baseurl }}/sitemap.xml" />
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/blog/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
@@ -33,7 +33,7 @@
   </style>
 
   
-    <script src="/js/main.js"></script>
+    <script src="{{ site.baseurl }}/js/main.js"></script>
   
 
 </head>
@@ -45,7 +45,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/"><img width="24" height="24" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGuSURBVHic7d1BalVBFEXRUt4AxPnPSiUgBgRDQESjIMaPDZ3EachmrQGczub2CurFOefv2fo83ns/3ruN9z6O994tx14ux/j/CBwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncNx1zrkfbz6M957Ge2/He+s3aI/LMRccJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHHXOefPePN5vPdtvPdqvLd+Mzbdc8FxAscJHCdwnMBxAscJHCdwnMBxAscJHCdwnMBxAscJHCdwnMBxAscJHHedc76PN3+M976M996M99ZvsqZ/NbrgOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI67zv4vv9/jva/jvQ/jvfWbttfLMRccJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHHXOec23rwb7/0c763/Vvw03vu1HHPBcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRz3D7O8IB766ZH3AAAAAElFTkSuQmCC" /> CoV Index</a>
+    <a class="site-title" href="{{ site.baseurl }}/"><img width="24" height="24" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGuSURBVHic7d1BalVBFEXRUt4AxPnPSiUgBgRDQESjIMaPDZ3EachmrQGczub2CurFOefv2fo83ns/3ruN9z6O994tx14ux/j/CBwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncNx1zrkfbz6M957Ge2/He+s3aI/LMRccJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHHXOefPePN5vPdtvPdqvLd+Mzbdc8FxAscJHCdwnMBxAscJHCdwnMBxAscJHCdwnMBxAscJHCdwnMBxAscJHHedc76PN3+M976M996M99ZvsqZ/NbrgOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI4TOE7gOIHjBI67zv4vv9/jva/jvQ/jvfWbttfLMRccJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHECxwkcJ3CcwHHXOec23rwb7/0c763/Vvw03vu1HHPBcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRwncJzAcQLHCRz3D7O8IB766ZH3AAAAAElFTkSuQmCC" /> CoV Index</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -57,10 +57,10 @@
       </a>
 
       <div class="trigger">
-              <a class="page-link" href="/about/">About</a>
-              <a class="page-link" href="/bibtex/">BibTeX</a>
-              <a class="page-link" href="/blog/">Blog</a>
-              <a class="page-link" href="/topics/">Topics</a>
+              <a class="page-link" href="{{ site.baseurl }}/about/">About</a>
+              <a class="page-link" href="{{ site.baseurl }}/bibtex/">BibTeX</a>
+              <a class="page-link" href="{{ site.baseurl }}/blog/">Blog</a>
+              <a class="page-link" href="{{ site.baseurl }}/topics/">Topics</a>
       </div>
     </nav>
 
@@ -92,16 +92,7 @@
 
       <div class="footer-col footer-col-3">
         
-        <div>CoV Index is the map of Coronavirus Science.
-</div>
-
-        <!-- <div id="blogpost">
-          Latest article: 
-          
-              <a href="/blog/initial-launch-of-cov-index.html">Initial launch of CoV Index</a>
-              <span class="post-meta">Mar 24, 2020</span>
-          
-        </div> -->
+        <div>CoV Index is the map of Coronavirus Science.</div>
 
       </div>
 
@@ -110,14 +101,10 @@
   </div>
 
   <div id="content-license">
-    <a href="/license/">cc 2020 Ian Dennis Miller</a>
+    <a href="{{ site.baseurl }}/license/">cc 2020 Ian Dennis Miller</a>
   </div>
 
 </footer>
-
-
-
-
 
     <script data-goatcounter="https://covindex.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>

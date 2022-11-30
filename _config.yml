@@ -23,12 +23,12 @@ exclude: ["docs", "Readme.md", "Todo.md", "Makefile", "vendor", "Gemfile", "Gemf
 # Build settings
 markdown: kramdown
 
-sass:
-  style: compressed
+# sass:
+#   style: compressed
 
-plugins_dir:
+gems:
   - jekyll-sitemap
-  - data_page_generator
+  - jekyll-datapage-generator
 
 # Email
 # email: iandennismiller@gmail.com
@@ -45,30 +45,36 @@ plugins_dir:
 # Disqus comments
 # disqus: 
 
+page_gen-dirs: false
+
 page_gen:
   - index_files: false
-    data: 'generator_queue.articles'
+    data: 'articles'
     template: 'gen-article'
-    name: 'id'
+    name: 'ID'
     dir: 'articles'
+
   - index_files: false
-    data: 'generator_queue.articles'
+    data: 'articles'
     template: 'gen-bibtex'
-    name: 'id'
-    dir: 'bib'
+    name: 'ID'
+    dir: 'bibtex'
     extension: 'bib'
+
   - index_files: false
-    data: 'generator_queue.authors'
+    data: 'authors'
     template: 'gen-author'
     name: 'id'
     dir: 'authors'
+
   - index_files: false
-    data: 'generator_queue.keywords'
+    data: 'keywords'
     template: 'gen-topic'
     name: 'id'
     dir: 'topics'
+
   - index_files: false
-    data: 'generator_queue.journals'
+    data: 'journals'
     template: 'gen-journal'
     name: 'id'
     dir: 'journals'

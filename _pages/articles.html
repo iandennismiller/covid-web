@@ -2,9 +2,9 @@
 draft:      true
 layout:     default
 title:      Articles
-permalink:  /covid-web/articles/index.html
+permalink:  /articles/index.html
 menu:       none
-image:      /covid-web/media/thumb-big.jpg
+image:      /media/thumb-big.jpg
 excerpt:    Articles
 ---
 
@@ -15,7 +15,7 @@ excerpt:    Articles
     <ul>
         {% for article in site.data.articles %}
           <li>
-            <a role="button" class="btn btn-primary" href="{{ article.ID|downcase }}.html">[View]</a>
+            <a role="button" class="btn btn-primary" href="{{ site.baseurl }}/articles/{{ article.ID|downcase }}.html">[View]</a>
             {{ article.author }}. ({{ article.year }}). {{ article.title }}.
           </li>
         {% endfor %}

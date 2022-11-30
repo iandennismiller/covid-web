@@ -22,7 +22,7 @@ image:      /media/thumb-big.jpg
 
                 {% for keyword_key in this.keywords %}
                 {% assign keyword_slug = keyword_key | downcase %}
-                <a href="/topics/{{ keyword_slug }}.html">
+                <a href="{{ site.baseurl }}/topics/{{ keyword_slug }}.html">
                     <span class="keyword">🔗 {{ site.data.keywords[keyword_slug].term }} ({{ site.data.keywords[keyword_slug].articles.size }})</span>
                 </a>
                 {% endfor %}
@@ -35,16 +35,16 @@ image:      /media/thumb-big.jpg
             <ul id="results">
             {% for article_key in this.articles %}
             <li>
-                <a class="search-result" href="/articles/{{ article_key|downcase }}.html">{{ site.data.articles[article_key].title }}</a>
+                <a class="search-result" href="{{ site.baseurl }}/articles/{{ article_key|downcase }}.html">{{ site.data.articles[article_key].title }}</a>
         
                 <p>
                     {% assign author_list = site.data.articles[article_key].author | split: " and " %}
                     {% for author in author_list %}
-                        <a href="/authors/{{author|slugify}}.html">👤&nbsp;{{ author }}</a>
+                        <a href="{{ site.baseurl }}/authors/{{author|slugify}}.html">👤&nbsp;{{ author }}</a>
                     {% endfor %}
                     ⏰&nbsp;{{ site.data.articles[article_key].year }}
                     
-                    <a href="/journals/{{site.data.articles[article_key].journal|slugify}}.html">📚 {{ site.data.articles[article_key].journal }}</a>
+                    <a href="{{ site.baseurl }}/journals/{{site.data.articles[article_key].journal|slugify}}.html">📚 {{ site.data.articles[article_key].journal }}</a>
                 </p>
                 
             </li>
