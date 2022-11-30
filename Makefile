@@ -51,7 +51,7 @@ serve:
 	bundle exec jekyll serve
 
 publish:
-	rsync -avD _site/ docs/
+	rsync -av --delete _site/ docs/
 	git add -A
 	git commit -am "automatic publish"
 	git push
