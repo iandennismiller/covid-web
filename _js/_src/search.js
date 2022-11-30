@@ -1,6 +1,8 @@
 var searchIndex;
 var citations;
 
+var BASE_URL = "/covid-web";
+
 
 var indexLoaded = function (e) {
     var resp = pako.inflate(e.target.response, { to: 'string' });
@@ -46,7 +48,7 @@ var search = function(query) {
 
         var link_node = document.createElement("a");
         link_node.appendChild(document.createTextNode(cite_data['t']));
-        link_node.href = "/articles/" + results[idx].ref.toLowerCase() + ".html";
+        link_node.href = BASE_URL + "/articles/" + results[idx].ref.toLowerCase() + ".html";
         link_node.className = "search-result";
 
         var meta_node = document.createElement("p");
@@ -55,7 +57,7 @@ var search = function(query) {
         for (var author_idx in cite_data['a']) {
             var author_link_node = document.createElement("a");
             author_link_node.appendChild(document.createTextNode('👤\xa0' + cite_data['a'][author_idx]));
-            author_link_node.href = "/authors/" + slugify(cite_data['a'][author_idx], {lower: true, remove: /[*+~.,()"!:@]/g}).replace("'", "-") + ".html";
+            author_link_node.href = BASE_URL + "/authors/" + slugify(cite_data['a'][author_idx], {lower: true, remove: /[*+~.,()"!:@]/g}).replace("'", "-") + ".html";
             meta_node.appendChild(author_link_node);
             meta_node.appendChild(document.createTextNode(" "));
         }
@@ -63,7 +65,7 @@ var search = function(query) {
 
         var journal_link_node = document.createElement("a");
         journal_link_node.appendChild(document.createTextNode(" 📚\xa0" + cite_data['j']));
-        journal_link_node.href = "/journals/" + slugify(cite_data['j'], {lower: true, remove: /[*+~.,()'"!:@]/g}) + ".html";
+        journal_link_node.href = BASE_URL + "/journals/" + slugify(cite_data['j'], {lower: true, remove: /[*+~.,()'"!:@]/g}) + ".html";
         meta_node.appendChild(journal_link_node);
 
         var list_node = document.createElement("LI");
@@ -95,7 +97,7 @@ var search_from_field = function() {
 var request_index = function() {
     var xhr = new XMLHttpRequest;
     xhr.responseType = "arraybuffer";
-    xhr.open('get', '/data/index.json.gz');
+    xhr.open('get', BASE_URL + '/data/index.json.gz');
     xhr.addEventListener('load', indexLoaded);
     xhr.send();    
 }
@@ -104,7 +106,7 @@ var request_index = function() {
 var request_citations = function() {
     var xhr_citations = new XMLHttpRequest;
     xhr_citations.responseType = "arraybuffer";
-    xhr_citations.open('get', '/data/citations.json.gz');
+    xhr_citations.open('get', BASE_URL + '/data/citations.json.gz');
     xhr_citations.addEventListener('load', citationsLoaded);
     xhr_citations.send();
 }

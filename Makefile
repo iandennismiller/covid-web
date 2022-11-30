@@ -1,24 +1,19 @@
 # Website Makefile
 
-all: docker-clean
-	docker run --rm --name jekyll -it -v $$PWD:/srv/jekyll iandennismiller/jekyll /bin/bash -c 'JEKYLL_ENV=production bundle exec jekyll build'
-
-	rsync --checksum -avD _site/ docs/
-
-	git add -A
-	git commit -am "automatic publish"
-	git push
-
+all: docker-clean docker-build publish
 	@echo ok
 
 docker-shell:
-	docker run --rm --name jekyll -it -v $$PWD:/srv/jekyll iandennismiller/jekyll /bin/bash
+	docker run --rm --name jekyll -it -v $$PWD:/srv/jekyll iandennismiller/jekyll:arm64 /bin/bash
 
 docker-build:
-	docker run --rm --name jekyll -it -v $$PWD:/srv/jekyll iandennismiller/jekyll /bin/bash -c 'JEKYLL_ENV=production bundle exec jekyll build'
+	docker run --rm --name jekyll -it -v $$PWD:/srv/jekyll iandennismiller/jekyll:arm64 /bin/bash -c 'JEKYLL_ENV=production /usr/local/bundle/bin/bundle exec jekyll build'
+
+docker-build-incremental:
+	docker run --rm --name jekyll -it -v $$PWD:/srv/jekyll iandennismiller/jekyll:arm64 /bin/bash -c 'JEKYLL_ENV=production bundle exec jekyll build --incremental'
 
 docker-clean:
-	docker run --rm --name jekyll -it -v $$PWD:/srv/jekyll iandennismiller/jekyll /bin/bash -c 'bundle exec jekyll clean'
+	docker run --rm --name jekyll -it -v $$PWD:/srv/jekyll iandennismiller/jekyll:arm64 /bin/bash -c 'bundle exec jekyll clean'
 
 requirements:
 	chmod 755 _bin/*
@@ -51,7 +46,7 @@ serve:
 	bundle exec jekyll serve
 
 publish:
-	rsync -av --delete _site/ docs/
+	rsync -av --delete --checksum _site/ docs/
 	git add -A
 	git commit -am "automatic publish"
 	git push
